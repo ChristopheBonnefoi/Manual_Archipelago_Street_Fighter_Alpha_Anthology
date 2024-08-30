@@ -1,0 +1,8 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "Stable",
+  "creator": "NaruSnake",
+  "filler_item_name": "Free Character of Your Choice",
+  "starting_items": []
+
+}
