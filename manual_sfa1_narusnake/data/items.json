@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Arcade Mode",
+        "category": ["Game_Modes"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Survival Mode",
+        "category": ["Game_Modes"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Dramatic Battle Mode",
+        "category": ["Other_Modes"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Normal",
+        "category": ["Game_Speed"],
+        "count": 1
+    },
+    {
+        "name": "Turbo",
+        "category": ["Game_Speed"],
+        "count": 1
+    },
+    {
+        "name": "Ryu",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Chun Li",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Charlie Nash",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Ken",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Guy",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Birdie",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Sodom",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Adon",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Rose",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Sagat",
+        "category": ["Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Akuma",
+        "category": ["Optionnal_Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "M.Bison",
+        "category": ["Optionnal_Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Dan",
+        "category": ["Optionnal_Characters"],
+        "count": 1,
+        "progression": true
+    },
+    {
+        "name": "Progressive Super Combo",
+        "category": ["Super"],
+        "count": 3
+    },
+    {
+        "name": "Shadaloo Emblem",
+        "category": ["Token"],
+        "count": 25,
+        "progression": true
+    }
+]

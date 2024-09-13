@@ -1,0 +1,1406 @@
+[
+    {
+        "name": "Ryu - Fight 01 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Fight 02 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Fight 03 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Fight 04 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Fight 05 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Ryu - Fight 06 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Fight 07 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Fight 08 Clear",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Win Arcade Mode",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Win 01 Fight in Survival Mode",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Win 05 Fight in Survival Mode",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Win 10 Fight in Survival Mode",
+        "category": ["Ryu"],
+        "requires": [
+            "Ryu",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Ryu - Get Perfect Round",
+        "category": ["Ryu"],
+        "requires": "|Ryu|"
+
+    },
+    {
+        "name": "Ryu - Get Stun",
+        "category": ["Ryu"],
+        "requires": "|Ryu|"
+
+    },
+    {
+        "name": "Ryu - Get First Attack",
+        "category": ["Ryu"],
+        "requires": "|Ryu|"
+
+    },
+    {
+        "name": "Ryu - Win Round With Super",
+        "category": ["Ryu"],
+        "requires": "|Ryu|"
+
+    },
+    {
+        "name": "Chun Li - Fight 01 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Fight 02 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Fight 03 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Fight 04 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Fight 05 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Chun Li - Fight 06 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Fight 07 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Fight 08 Clear",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Win Arcade Mode",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Win 01 Fight in Survival Mode",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Win 05 Fight in Survival Mode",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Win 10 Fight in Survival Mode",
+        "category": ["Chun Li"],
+        "requires": [
+            "Chun Li",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Chun Li - Get Perfect Round",
+        "category": ["Chun Li"],
+        "requires": "|Chun Li|"
+
+    },
+    {
+        "name": "Chun Li - Get Stun",
+        "category": ["Chun Li"],
+        "requires": "|Chun Li|"
+
+    },
+    {
+        "name": "Chun Li - Get First Attack",
+        "category": ["Chun Li"],
+        "requires": "|Chun Li|"
+
+    },
+    {
+        "name": "Chun Li - Win Round With Super",
+        "category": ["Chun Li"],
+        "requires": "|Chun Li|"
+
+    },
+    {
+        "name": "Charlie Nash - Fight 01 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Fight 02 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Fight 03 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Fight 04 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Fight 05 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Charlie Nash - Fight 06 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Fight 07 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Fight 08 Clear",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Win Arcade Mode",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Win 01 Fight in Survival Mode",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Win 05 Fight in Survival Mode",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Win 10 Fight in Survival Mode",
+        "category": ["Charlie Nash"],
+        "requires": [
+            "Charlie Nash",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Charlie Nash - Get Perfect Round",
+        "category": ["Charlie Nash"],
+        "requires": "|Charlie Nash|"
+
+    },
+    {
+        "name": "Charlie Nash - Get Stun",
+        "category": ["Charlie Nash"],
+        "requires": "|Charlie Nash|"
+
+    },
+    {
+        "name": "Charlie Nash - Get First Attack",
+        "category": ["Charlie Nash"],
+        "requires": "|Charlie Nash|"
+
+    },
+    {
+        "name": "Charlie Nash - Win Round With Super",
+        "category": ["Charlie Nash"],
+        "requires": "|Charlie Nash|"
+
+    },
+    {
+        "name": "Ken - Fight 01 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Fight 02 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Fight 03 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Fight 04 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Fight 05 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Ken - Fight 06 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Fight 07 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Fight 08 Clear",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Win Arcade Mode",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Ken - Win 01 Fight in Survival Mode",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Ken - Win 05 Fight in Survival Mode",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Ken - Win 10 Fight in Survival Mode",
+        "category": ["Ken"],
+        "requires": [
+            "Ken",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Ken - Get Perfect Round",
+        "category": ["Ken"],
+        "requires": "|Ken|"
+
+    },
+    {
+        "name": "Ken - Get Stun",
+        "category": ["Ken"],
+        "requires": "|Ken|"
+
+    },
+    {
+        "name": "Ken - Get First Attack",
+        "category": ["Ken"],
+        "requires": "|Ken|"
+
+    },
+    {
+        "name": "Ken - Win Round With Super",
+        "category": ["Ken"],
+        "requires": "|Ken|"
+
+    },
+    {
+        "name": "Guy - Fight 01 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Fight 02 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Fight 03 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Fight 04 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Fight 05 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Guy - Fight 06 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Fight 07 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Fight 08 Clear",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Win Arcade Mode",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Guy - Win 01 Fight in Survival Mode",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Guy - Win 05 Fight in Survival Mode",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Guy - Win 10 Fight in Survival Mode",
+        "category": ["Guy"],
+        "requires": [
+            "Guy",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Guy - Get Perfect Round",
+        "category": ["Guy"],
+        "requires": "|Guy|"
+
+    },
+    {
+        "name": "Guy - Get Stun",
+        "category": ["Guy"],
+        "requires": "|Guy|"
+
+    },
+    {
+        "name": "Guy - Get First Attack",
+        "category": ["Guy"],
+        "requires": "|Guy|"
+
+    },
+    {
+        "name": "Guy - Win Round With Super",
+        "category": ["Guy"],
+        "requires": "|Guy|"
+
+    },
+    {
+        "name": "Birdie - Fight 01 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Fight 02 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Fight 03 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Fight 04 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Fight 05 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Birdie - Fight 06 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Fight 07 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Fight 08 Clear",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Win Arcade Mode",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Win 01 Fight in Survival Mode",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Win 05 Fight in Survival Mode",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Win 10 Fight in Survival Mode",
+        "category": ["Birdie"],
+        "requires": [
+            "Birdie",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Birdie - Get Perfect Round",
+        "category": ["Birdie"],
+        "requires": "|Birdie|"
+
+    },
+    {
+        "name": "Birdie - Get Stun",
+        "category": ["Birdie"],
+        "requires": "|Birdie|"
+
+    },
+    {
+        "name": "Birdie - Get First Attack",
+        "category": ["Birdie"],
+        "requires": "|Birdie|"
+
+    },
+    {
+        "name": "Birdie - Win Round With Super",
+        "category": ["Birdie"],
+        "requires": "|Birdie|"
+
+    },
+    {
+        "name": "Sodom - Fight 01 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Fight 02 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Fight 03 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Fight 04 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Fight 05 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Sodom - Fight 06 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Fight 07 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Fight 08 Clear",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Win Arcade Mode",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Win 01 Fight in Survival Mode",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Win 05 Fight in Survival Mode",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Win 10 Fight in Survival Mode",
+        "category": ["Sodom"],
+        "requires": [
+            "Sodom",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Sodom - Get Perfect Round",
+        "category": ["Sodom"],
+        "requires": "|Sodom|"
+
+    },
+    {
+        "name": "Sodom - Get Stun",
+        "category": ["Sodom"],
+        "requires": "|Sodom|"
+
+    },
+    {
+        "name": "Sodom - Get First Attack",
+        "category": ["Sodom"],
+        "requires": "|Sodom|"
+
+    },
+    {
+        "name": "Sodom - Win Round With Super",
+        "category": ["Sodom"],
+        "requires": "|Sodom|"
+
+    },
+    {
+        "name": "Adon - Fight 01 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Fight 02 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Fight 03 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Fight 04 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Fight 05 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Adon - Fight 06 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Fight 07 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Fight 08 Clear",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Win Arcade Mode",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Adon - Win 01 Fight in Survival Mode",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Adon - Win 05 Fight in Survival Mode",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Adon - Win 10 Fight in Survival Mode",
+        "category": ["Adon"],
+        "requires": [
+            "Adon",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Adon - Get Perfect Round",
+        "category": ["Adon"],
+        "requires": "|Adon|"
+
+    },
+    {
+        "name": "Adon - Get Stun",
+        "category": ["Adon"],
+        "requires": "|Adon|"
+
+    },
+    {
+        "name": "Adon - Get First Attack",
+        "category": ["Adon"],
+        "requires": "|Adon|"
+
+    },
+    {
+        "name": "Adon - Win Round With Super",
+        "category": ["Adon"],
+        "requires": "|Adon|"
+
+    },
+    {
+        "name": "Rose - Fight 01 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Fight 02 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Fight 03 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Fight 04 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Fight 05 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Rose - Fight 06 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Fight 07 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Fight 08 Clear",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Win Arcade Mode",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Rose - Win 01 Fight in Survival Mode",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Rose - Win 05 Fight in Survival Mode",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Rose - Win 10 Fight in Survival Mode",
+        "category": ["Rose"],
+        "requires": [
+            "Rose",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Rose - Get Perfect Round",
+        "category": ["Rose"],
+        "requires": "|Rose|"
+
+    },
+    {
+        "name": "Rose - Get Stun",
+        "category": ["Rose"],
+        "requires": "|Rose|"
+
+    },
+    {
+        "name": "Rose - Get First Attack",
+        "category": ["Rose"],
+        "requires": "|Rose|"
+
+    },
+    {
+        "name": "Rose - Win Round With Super",
+        "category": ["Rose"],
+        "requires": "|Rose|"
+
+    },
+    {
+        "name": "Sagat - Fight 01 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Fight 02 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Fight 03 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Fight 04 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Fight 05 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },    {
+        "name": "Sagat - Fight 06 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Fight 07 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Fight 08 Clear",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Win Arcade Mode",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Arcade Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Win 01 Fight in Survival Mode",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Win 05 Fight in Survival Mode",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Win 10 Fight in Survival Mode",
+        "category": ["Sagat"],
+        "requires": [
+            "Sagat",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Sagat - Get Perfect Round",
+        "category": ["Sagat"],
+        "requires": "|Sagat|"
+
+    },
+    {
+        "name": "Sagat - Get Stun",
+        "category": ["Sagat"],
+        "requires": "|Sagat|"
+
+    },
+    {
+        "name": "Sagat - Get First Attack",
+        "category": ["Sagat"],
+        "requires": "|Sagat|"
+
+    },
+    {
+        "name": "Sagat - Win Round With Super",
+        "category": ["Sagat"],
+        "requires": "|Sagat|"
+
+    },
+    {
+        "name": "Akuma - Win 01 Fight in Survival Mode",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Akuma - Win 05 Fight in Survival Mode",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Akuma - Win 10 Fight in Survival Mode",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Akuma - Get Perfect Round",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Akuma - Get Stun",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Akuma - Get First Attack",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Akuma - Win Round With Super",
+        "category": ["Akuma"],
+        "requires": [
+            "Akuma",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "M.Bison - Win 01 Fight in Survival Mode",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "M.Bison - Win 05 Fight in Survival Mode",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "M.Bison - Win 10 Fight in Survival Mode",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "M.Bison - Get Perfect Round",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "M.Bison - Get Stun",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "M.Bison - Get First Attack",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "M.Bison - Win Round With Super",
+        "category": ["M.Bison"],
+        "requires": [
+            "M.Bison",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Dan - Win 01 Fight in Survival Mode",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Dan - Win 05 Fight in Survival Mode",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Dan - Win 10 Fight in Survival Mode",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+    },
+    {
+        "name": "Dan - Get Perfect Round",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Dan - Get Stun",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Dan - Get First Attack",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": "Dan - Win Round With Super",
+        "category": ["Dan"],
+        "requires": [
+            "Dan",
+            "Survival Mode"
+        ]
+
+    },
+    {
+        "name": " Fight 01 - Deafeat Adon in Dramatic Battle Mode",
+        "category": ["Dramatic Battle"],
+        "requires": "|Dramatic Battle Mode|",
+        "requires category": "|Characters:2|"
+
+    },
+    {
+        "name": "Fight 02 - Deafeat Sagat in Dramatic Battle Mode",
+        "category": ["Dramatic Battle"],
+        "requires": "|Dramatic Battle Mode|",
+        "requires category": "|Characters:2|"
+
+    },
+    {
+        "name": "Fight 03 - Deafeat M.Bison in Dramatic Battle Mode",
+        "category": ["Dramatic Battle"],
+        "requires": "|Dramatic Battle Mode|",
+        "requires category": "|Characters:2|"
+
+    },
+    {
+        "name": "Fight 04 - Deafeat Akuma in Dramatic Battle Mode",
+        "category": ["Dramatic Battle"],
+        "requires": "|Dramatic Battle Mode|",
+        "requires category": "|Characters:2|"
+
+    },
+    {
+        "name": "Shadaloo Emblem Clear",
+        "victory": true,
+        "category": ["Goal"],
+        "requires": "|Shadaloo Emblem:ALL|"
+    }   
+]
