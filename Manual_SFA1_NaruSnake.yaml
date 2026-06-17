@@ -71,6 +71,24 @@ Manual_SFA1_NaruSnake:
     full game cleared: 0
     full game + shadaloo emblem cleared: 0
 
+  arcade_mode:
+    # If enabled, Arcade Mode items and locations are included in the seed.
+    # At least one game mode must stay enabled.
+    true: 50
+    false: 0
+
+  survival_mode:
+    # If enabled, Survival Mode items and locations are included in the seed.
+    # At least one game mode must stay enabled.
+    true: 50
+    false: 0
+
+  dramatic_battle_mode:
+    # If enabled, Dramatic Battle Mode items and locations are included in the seed.
+    # At least one game mode must stay enabled.
+    true: 50
+    false: 0
+
   shadaloo_emblems_required:
     # Choose how many Shadaloo Emblems are required for Shadaloo Emblem goals.
     # This can be set from 1 to 100, or randomized in the YAML for a surprise objective.
@@ -85,31 +103,31 @@ Manual_SFA1_NaruSnake:
     random-high: 0 # random value weighted towards higher values
     random-range-1-100: 0 # random value between 1 and 100
 
-  include_difficulty:
+  difficulty:
     # If enabled, Difficulty items and locations are included in the seed.
     # If disabled, the Difficulty category is excluded from the multiworld.
     true: 0
     false: 50
 
-  include_damage_levels:
+  damage_levels:
     # If enabled, Damage Levels items and locations are included in the seed.
     # If disabled, the Damage_Levels category is excluded from the multiworld.
     true: 0
     false: 50
 
-  include_timer_speed:
+  timer_speed:
     # If enabled, Timer Speed items and locations are included in the seed.
     # If disabled, the Timer_Speed category is excluded from the multiworld.
     true: 0
     false: 50
 
-  include_speed_select:
+  speed_select:
     # If enabled, Speed Select items and locations are included in the seed.
     # If disabled, the Speed_Select category is excluded from the multiworld.
     true: 0
     false: 50
 
-  include_max_rounds:
+  max_rounds:
     # If enabled, Max Rounds items and locations are included in the seed.
     # If disabled, the Max_Rounds category is excluded from the multiworld.
     true: 0

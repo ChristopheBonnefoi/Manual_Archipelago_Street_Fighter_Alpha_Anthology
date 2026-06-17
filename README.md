@@ -29,6 +29,12 @@ The other games will be added in future updates.
 #### Goal:
 **Token**: The Shadaloo Emblem goal can be configured in the YAML to require any amount from 1 to 100 tokens, or randomized for a surprise objective. Tokens are only added to the item pool when the selected goal needs them.
 
+#### YAML Options:
+- **Game Modes**: Arcade Mode, Survival Mode, and Dramatic Battle Mode can be enabled or disabled from the YAML.
+- **Game Options**: Difficulty, Damage Levels, Timer Speed, Speed Select, and Max Rounds can be enabled or disabled from the YAML.
+- At least one game mode must stay enabled.
+- Some option combinations can be blocked during generation if there are not enough active checks for the selected item pool.
+
 #### Mode:
 - **Arcade Mode:** The classic game mode.
 - **Survival Mode:** Survival mode where the current goal is to win 10 battles.
@@ -46,6 +52,16 @@ The other games will be added in future updates.
 I would like to add more goals and make the YAML configuration as flexible as possible. Perhaps a system where you need to collect each character's techniques in the item pool, but that will be when I learn how to implement hooks to still give players the option to enable or disable this feature.
 
 ## Patch Notes
+
+### Version 0.4.0: YAML Cleanup + Game Mode Selection
+- Added YAML options for `arcade_mode`, `survival_mode`, and `dramatic_battle_mode`.
+- Renamed optional YAML settings to cleaner names: `difficulty`, `damage_levels`, `timer_speed`, `speed_select`, and `max_rounds`.
+- Added mode categories so disabling a game mode removes its related item and checks from the seed.
+- Updated optional starting items to use the cleaner YAML option names.
+- Added generation safety checks to prevent invalid mode combinations.
+- Added validation to block YAML configurations that do not have enough active checks for the selected item pool.
+- Added logic to remove character items that no longer have active checks when possible.
+- Updated the default YAML template with the new mode and option names.
 
 ### Version 0.3.0: Yaml + Token Update
 - Added the `shadaloo_emblems_required` YAML option for the Shadaloo Emblem goals.

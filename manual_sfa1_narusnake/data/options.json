@@ -38,8 +38,38 @@
             "default": 100,
             "group": "Goal Options"
         },
-        "include_difficulty": {
-            "display_name": "Include Difficulty Items",
+        "arcade_mode": {
+            "display_name": "Arcade Mode",
+            "description": [
+                "If enabled, Arcade Mode items and locations are included in the seed.",
+                "At least one game mode must stay enabled."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Modes"
+        },
+        "survival_mode": {
+            "display_name": "Survival Mode",
+            "description": [
+                "If enabled, Survival Mode items and locations are included in the seed.",
+                "At least one game mode must stay enabled."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Modes"
+        },
+        "dramatic_battle_mode": {
+            "display_name": "Dramatic Battle Mode",
+            "description": [
+                "If enabled, Dramatic Battle Mode items and locations are included in the seed.",
+                "At least one game mode must stay enabled."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Game Modes"
+        },
+        "difficulty": {
+            "display_name": "Difficulty",
             "description": [
                 "If enabled, Difficulty items and locations are included in the seed.",
                 "If disabled, the Difficulty category is excluded from the multiworld."
@@ -48,8 +78,8 @@
             "default": false,
             "group": "Game Options"
         },
-        "include_damage_levels": {
-            "display_name": "Include Damage Level Items",
+        "damage_levels": {
+            "display_name": "Damage Levels",
             "description": [
                 "If enabled, Damage Levels items and locations are included in the seed.",
                 "If disabled, the Damage_Levels category is excluded from the multiworld."
@@ -58,8 +88,8 @@
             "default": false,
             "group": "Game Options"
         },
-        "include_timer_speed": {
-            "display_name": "Include Timer Speed Items",
+        "timer_speed": {
+            "display_name": "Timer Speed",
             "description": [
                 "If enabled, Timer Speed items and locations are included in the seed.",
                 "If disabled, the Timer_Speed category is excluded from the multiworld."
@@ -68,8 +98,8 @@
             "default": false,
             "group": "Game Options"
         },
-        "include_speed_select": {
-            "display_name": "Include Speed Select Items",
+        "speed_select": {
+            "display_name": "Speed Select",
             "description": [
                 "If enabled, Speed Select items and locations are included in the seed.",
                 "If disabled, the Speed_Select category is excluded from the multiworld."
@@ -78,8 +108,8 @@
             "default": false,
             "group": "Game Options"
         },
-        "include_max_rounds": {
-            "display_name": "Include Max Rounds Items",
+        "max_rounds": {
+            "display_name": "Max Rounds",
             "description": [
                 "If enabled, Max Rounds items and locations are included in the seed.",
                 "If disabled, the Max_Rounds category is excluded from the multiworld."

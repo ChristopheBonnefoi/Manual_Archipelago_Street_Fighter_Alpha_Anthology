@@ -40,7 +40,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
 def after_options_defined(options: Type[PerGameCommonOptions]):
     # To access a modifiable version of options check the dict in options.type_hints
     # For example if you want to change an option's display name you would do:
-    # options.type_hints["include_difficulty"].display_name = "New Display Name"
+    # options.type_hints["difficulty"].display_name = "New Display Name"
 
     #  Here's an example on how to add your aliases to the generated goal
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})

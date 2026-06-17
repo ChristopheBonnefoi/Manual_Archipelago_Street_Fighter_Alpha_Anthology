@@ -3,34 +3,52 @@
     "Options": {
         "hidden": false
     },
+    "Arcade_Mode": {
+        "hidden": true,
+        "yaml_option": [
+            "arcade_mode"
+        ]
+    },
+    "Survival_Mode": {
+        "hidden": true,
+        "yaml_option": [
+            "survival_mode"
+        ]
+    },
+    "Dramatic_Battle_Mode": {
+        "hidden": true,
+        "yaml_option": [
+            "dramatic_battle_mode"
+        ]
+    },
     "Difficulty": {
         "hidden": true,
         "yaml_option": [
-            "include_difficulty"
+            "difficulty"
         ]
     },
     "Damage_Levels": {
         "hidden": true,
         "yaml_option": [
-            "include_damage_levels"
+            "damage_levels"
         ]
     },
     "Timer_Speed": {
         "hidden": true,
         "yaml_option": [
-            "include_timer_speed"
+            "timer_speed"
         ]
     },
     "Speed_Select": {
         "hidden": true,
         "yaml_option": [
-            "include_speed_select"
+            "speed_select"
         ]
     },
     "Max_Rounds": {
         "hidden": true,
         "yaml_option": [
-            "include_max_rounds"
+            "max_rounds"
         ]
     }
 }

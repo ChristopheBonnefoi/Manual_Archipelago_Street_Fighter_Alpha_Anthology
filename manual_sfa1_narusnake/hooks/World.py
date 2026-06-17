@@ -14,10 +14,26 @@ from ..Data import game_table, item_table, location_table, region_table
 from ..Locations import victory_names
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat, remove_specific_item
+from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat, remove_specific_item, is_item_enabled, is_location_enabled, resolve_yaml_option
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
+
+GAME_MODE_OPTIONS = {
+    "Arcade Mode": "arcade_mode",
+    "Survival Mode": "survival_mode",
+    "Dramatic Battle Mode": "dramatic_battle_mode",
+}
+
+TOKEN_GOAL_NAMES = {
+    "Shadaloo Emblem Cleared",
+    "Full Game + Shadaloo Emblem Cleared",
+}
+
+GOAL_REQUIRED_OPTIONS = {
+    "All Arcade Modes Cleared": ["arcade_mode"],
+    "All Survival Modes Cleared": ["survival_mode"],
+}
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -38,16 +54,122 @@ import logging
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
     return False
 
+def get_selected_goal_name(multiworld: MultiWorld, player: int) -> str:
+    goal_index = get_option_value(multiworld, player, "goal")
+    return victory_names[goal_index] if 0 <= goal_index < len(victory_names) else ""
+
+def is_token_goal(goal_name: str) -> bool:
+    return goal_name in TOKEN_GOAL_NAMES
+
+def get_active_non_goal_locations(world: World, multiworld: MultiWorld, player: int) -> list[dict]:
+    return [
+        location
+        for location in world.location_table
+        if "Goal" not in location.get("category", [])
+        and is_location_enabled(multiworld, player, location)
+    ]
+
+def get_active_non_goal_location_count(world: World, multiworld: MultiWorld, player: int) -> int:
+    return len(get_active_non_goal_locations(world, multiworld, player))
+
+def get_unused_character_names(world: World, multiworld: MultiWorld, player: int) -> set[str]:
+    active_locations = get_active_non_goal_locations(world, multiworld, player)
+    character_names = set(world.item_name_groups.get("Characters", []))
+
+    if any("|@Characters" in location.get("requires", "") for location in active_locations):
+        return set()
+
+    used_character_names = {
+        character_name
+        for character_name in character_names
+        if any(f"|{character_name}|" in location.get("requires", "") for location in active_locations)
+    }
+
+    return character_names - used_character_names
+
+def get_enabled_item_count(world: World, multiworld: MultiWorld, player: int, goal_name: str) -> int:
+    enabled_item_count = 0
+    unused_character_names = get_unused_character_names(world, multiworld, player)
+
+    for name, item in world.item_name_to_item.items():
+        if name in ["__Victory__", game_table.get("filler_item_name", "Filler")]:
+            continue
+
+        if name in unused_character_names:
+            continue
+
+        if not is_item_enabled(multiworld, player, item):
+            continue
+
+        if name == "Shadaloo Emblem":
+            enabled_item_count += get_option_value(multiworld, player, "shadaloo_emblems_required") if is_token_goal(goal_name) else 0
+            continue
+
+        enabled_item_count += int(item.get("count", 1))
+
+    return enabled_item_count
+
+def get_starting_item_block_count(multiworld: MultiWorld, player: int) -> int:
+    starting_item_count = 0
+
+    for starting_item_block in game_table.get("starting_items", []):
+        if resolve_yaml_option(multiworld, player, starting_item_block):
+            starting_item_count += int(starting_item_block.get("random", len(starting_item_block.get("items", []))))
+
+    return starting_item_count
+
+def get_items_to_place_count(world: World, multiworld: MultiWorld, player: int, goal_name: str) -> int:
+    return get_enabled_item_count(world, multiworld, player, goal_name) - get_starting_item_block_count(multiworld, player)
+
+def validate_yaml_mode_options(world: World, multiworld: MultiWorld, player: int) -> None:
+    enabled_modes = [
+        mode_name
+        for mode_name, option_name in GAME_MODE_OPTIONS.items()
+        if is_option_enabled(multiworld, player, option_name)
+    ]
+
+    if not enabled_modes:
+        raise Exception(
+            "Manual_SFA1_NaruSnake requires at least one game mode to stay enabled."
+        )
+
+    goal_name = get_selected_goal_name(multiworld, player)
+    missing_goal_options = [
+        option_name
+        for option_name in GOAL_REQUIRED_OPTIONS.get(goal_name, [])
+        if not is_option_enabled(multiworld, player, option_name)
+    ]
+
+    if missing_goal_options:
+        missing_names = ", ".join(
+            mode_name
+            for mode_name, option_name in GAME_MODE_OPTIONS.items()
+            if option_name in missing_goal_options
+        )
+        raise Exception(
+            f"The selected goal '{goal_name}' requires the following mode option(s) to be enabled: {missing_names}."
+        )
+
+    active_location_count = get_active_non_goal_location_count(world, multiworld, player)
+    items_to_place_count = get_items_to_place_count(world, multiworld, player, goal_name)
+
+    if items_to_place_count > active_location_count:
+        raise Exception(
+            "This YAML does not have enough active checks for the selected options. "
+            f"Active checks: {active_location_count}. Items to place: {items_to_place_count}. "
+            "Enable more game modes/options, lower the Shadaloo Emblem requirement, or choose another goal."
+        )
+
 def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
     """
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-    pass
+    validate_yaml_mode_options(world, multiworld, player)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    pass
+    validate_yaml_mode_options(world, multiworld, player)
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -71,18 +193,15 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
-    token_goal_names = {
-        "Shadaloo Emblem Cleared",
-        "Full Game + Shadaloo Emblem Cleared"
-    }
+    goal_name = get_selected_goal_name(multiworld, player)
 
-    goal_index = get_option_value(multiworld, player, "goal")
-    goal_name = victory_names[goal_index] if 0 <= goal_index < len(victory_names) else ""
-
-    if goal_name in token_goal_names:
+    if is_token_goal(goal_name):
         item_config["Shadaloo Emblem"] = get_option_value(multiworld, player, "shadaloo_emblems_required")
     else:
         item_config["Shadaloo Emblem"] = 0
+
+    for character_name in get_unused_character_names(world, multiworld, player):
+        item_config[character_name] = 0
 
     return item_config
 

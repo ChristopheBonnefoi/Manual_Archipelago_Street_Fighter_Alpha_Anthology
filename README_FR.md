@@ -35,6 +35,13 @@ Les autres jeux seront ajoutés dans de futures mises à jour.
 
 **Token** : L'objectif Shadaloo Emblem peut être configuré dans le YAML pour demander un nombre de tokens entre 1 et 100, ou être randomisé pour un objectif surprise. Les tokens sont ajoutés au pool d'items seulement quand l'objectif choisi en a besoin.
 
+#### Options YAML :
+
+* **Modes de jeu :** Arcade Mode, Survival Mode et Dramatic Battle Mode peuvent être activés ou désactivés depuis le YAML.
+* **Options de jeu :** Difficulty, Damage Levels, Timer Speed, Speed Select et Max Rounds peuvent être activés ou désactivés depuis le YAML.
+* Au moins un mode de jeu doit rester actif.
+* Certaines combinaisons d'options peuvent être bloquées pendant la génération s'il n'y a pas assez de checks actifs pour le pool d'items choisi.
+
 #### Modes :
 
 * **Arcade Mode :** Le mode de jeu classique.
@@ -56,6 +63,16 @@ Les autres jeux seront ajoutés dans de futures mises à jour.
 J’aimerais ajouter davantage d’objectifs et rendre la configuration du YAML aussi flexible que possible. Peut-être qu’un système où il faudrait récupérer les techniques de chaque personnage dans le pool d’items pourrait être ajouté, mais ce sera lorsque j’aurai appris à utiliser les hooks, afin de laisser aux joueurs la possibilité d’activer ou de désactiver cette fonctionnalité.
 
 ## Notes de patch
+
+### Version 0.4.0 : YAML Cleanup + Game Mode Selection
+- Ajout des options YAML `arcade_mode`, `survival_mode` et `dramatic_battle_mode`.
+- Renommage des options YAML optionnelles avec des noms plus propres : `difficulty`, `damage_levels`, `timer_speed`, `speed_select` et `max_rounds`.
+- Ajout de catégories de modes afin que désactiver un mode de jeu retire son item et ses checks de la seed.
+- Mise à jour des items de départ optionnels pour utiliser les nouveaux noms d'options YAML.
+- Ajout de sécurités de génération pour éviter les combinaisons de modes invalides.
+- Ajout d'une validation pour bloquer les configurations YAML qui n'ont pas assez de checks actifs pour le pool d'items choisi.
+- Ajout d'une logique pour retirer les personnages qui n'ont plus de checks actifs quand c'est possible.
+- Mise à jour du template YAML par défaut avec les nouveaux noms de modes et d'options.
 
 ### Version 0.3.0 : Yaml + Token Update
 - Ajout de l'option YAML `shadaloo_emblems_required` pour les objectifs Shadaloo Emblem.

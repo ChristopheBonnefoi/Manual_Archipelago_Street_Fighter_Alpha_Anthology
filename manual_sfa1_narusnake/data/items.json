@@ -1,263 +1,378 @@
 [
     {
         "name": "Arcade Mode",
-        "category": ["Game_Modes"],
+        "category": [
+            "Game_Modes",
+            "Arcade_Mode"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Survival Mode",
-        "category": ["Game_Modes"],
+        "category": [
+            "Game_Modes",
+            "Survival_Mode"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Dramatic Battle Mode",
-        "category": ["Game_Modes"],
+        "category": [
+            "Game_Modes",
+            "Dramatic_Battle_Mode"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Game Speed - Normal",
-        "category": ["Game_Speed"],
+        "category": [
+            "Game_Speed"
+        ],
         "count": 1
     },
     {
         "name": "Game Speed - Turbo",
-        "category": ["Game_Speed"],
+        "category": [
+            "Game_Speed"
+        ],
         "count": 1
     },
     {
         "name": "Difficulty - 1 Star",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 2 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 3 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 4 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 5 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 6 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 7 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 8 Stars",
-        "category": [ "Options", "Difficulty"],
+        "category": [
+            "Options",
+            "Difficulty"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 1 Star",
-        "category": [ "Options", "Damage_Levels"],
+        "category": [
+            "Options",
+            "Damage_Levels"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 2 Stars",
-        "category": [ "Options", "Damage_Levels"],
+        "category": [
+            "Options",
+            "Damage_Levels"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 3 Stars",
-        "category": [ "Options", "Damage_Levels"],
+        "category": [
+            "Options",
+            "Damage_Levels"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 4 Stars",
-        "category": [ "Options", "Damage_Levels"],
+        "category": [
+            "Options",
+            "Damage_Levels"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 1 Star",
-        "category": [ "Options", "Timer_Speed"],
+        "category": [
+            "Options",
+            "Timer_Speed"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 2 Stars",
-        "category": [ "Options", "Timer_Speed"],
+        "category": [
+            "Options",
+            "Timer_Speed"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 3 Stars",
-        "category": [ "Options", "Timer_Speed"],
+        "category": [
+            "Options",
+            "Timer_Speed"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 4 Stars",
-        "category": [ "Options", "Timer_Speed"],
+        "category": [
+            "Options",
+            "Timer_Speed"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - Infinity",
-        "category": [ "Options", "Timer_Speed"],
+        "category": [
+            "Options",
+            "Timer_Speed"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Free",
-        "category": [ "Options", "Speed_Select"],
+        "category": [
+            "Options",
+            "Speed_Select"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Turbo 0",
-        "category": [ "Options", "Speed_Select"],
+        "category": [
+            "Options",
+            "Speed_Select"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Turbo 1",
-        "category": [ "Options", "Speed_Select"],
+        "category": [
+            "Options",
+            "Speed_Select"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Turbo 2",
-        "category": [ "Options", "Speed_Select"],
+        "category": [
+            "Options",
+            "Speed_Select"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Max Rounds - 1",
-        "category": [ "Options", "Max_Rounds"],
+        "category": [
+            "Options",
+            "Max_Rounds"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Max Rounds - 3",
-        "category": [ "Options", "Max_Rounds"],
+        "category": [
+            "Options",
+            "Max_Rounds"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Max Rounds - 5",
-        "category": [ "Options", "Max_Rounds"],
+        "category": [
+            "Options",
+            "Max_Rounds"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Adon",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Akuma",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Birdie",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Charlie Nash",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Chun Li",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Dan",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Guy",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Ken",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "M.Bison",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Rose",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Ryu",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Sagat",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Sodom",
-        "category": ["Characters"],
+        "category": [
+            "Characters"
+        ],
         "count": 1,
         "progression": true
     },
     {
         "name": "Progressive Super Combo",
-        "category": ["Super"],
+        "category": [
+            "Super"
+        ],
         "count": 3,
-        "progression": true 
+        "progression": true
     },
     {
         "name": "Shadaloo Emblem",
-        "category": ["Token"],
+        "category": [
+            "Token"
+        ],
         "count": 100,
         "progression": true
     }
