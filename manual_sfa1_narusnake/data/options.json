@@ -2,13 +2,16 @@
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
-        "goal":{
+        "goal": {
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "The End Objective",
             "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
+            "aliases": {
+                "easiest": 0
+            },
+            "default": 1,
             "hidden": false
         },
         "death_link": {
@@ -22,61 +25,55 @@
         }
     },
     "user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
-        "Example_Toggle":{
+        "include_difficulty": {
+            "display_name": "Include Difficulty Items",
             "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
+                "If enabled, Difficulty items and locations are included in the seed.",
+                "If disabled, the Difficulty category is excluded from the multiworld."
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Example Options"
+            "group": "Game Options"
         },
-        "Example_Choice":{
-            "type": "Choice",
+        "include_damage_levels": {
+            "display_name": "Include Damage Level Items",
             "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
+                "If enabled, Damage Levels items and locations are included in the seed.",
+                "If disabled, the Damage_Levels category is excluded from the multiworld."
             ],
-            "values": {
-                "start":0,
-                "test":1
-             },
-            "default": 0,
-            "allow_custom_value": false,
-            "group": "Example Options"
-        },
-        "Example_Range":{
-            "type": "Range",
-            "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
-            ],
-            "range_start": 0,
-            "default": 1,
-            "range_end": 5,
-            "values": {"example": 2},
-            "group": "Example Options"
-        },
-
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
             "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
+            "default": false,
+            "group": "Game Options"
+        },
+        "include_timer_speed": {
+            "display_name": "Include Timer Speed Items",
+            "description": [
+                "If enabled, Timer Speed items and locations are included in the seed.",
+                "If disabled, the Timer_Speed category is excluded from the multiworld."
             ],
-            "default": true
+            "type": "Toggle",
+            "default": false,
+            "group": "Game Options"
+        },
+        "include_speed_select": {
+            "display_name": "Include Speed Select Items",
+            "description": [
+                "If enabled, Speed Select items and locations are included in the seed.",
+                "If disabled, the Speed_Select category is excluded from the multiworld."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Game Options"
+        },
+        "include_max_rounds": {
+            "display_name": "Include Max Rounds Items",
+            "description": [
+                "If enabled, Max Rounds items and locations are included in the seed.",
+                "If disabled, the Max_Rounds category is excluded from the multiworld."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Game Options"
         }
     }
-
 }

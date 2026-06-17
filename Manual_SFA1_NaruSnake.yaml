@@ -65,11 +65,41 @@ Manual_SFA1_NaruSnake:
 
   goal:
     # Choose your victory condition.
-    shadaloo emblem cleared: 50
-    all arcade modes cleared: 0
+    shadaloo emblem cleared: 0
+    all arcade modes cleared: 50
     all survival modes cleared: 0
     full game cleared: 0
     full game + shadaloo emblem cleared: 0
+
+  include_difficulty:
+    # If enabled, Difficulty items and locations are included in the seed.
+    # If disabled, the Difficulty category is excluded from the multiworld.
+    true: 0
+    false: 50
+
+  include_damage_levels:
+    # If enabled, Damage Levels items and locations are included in the seed.
+    # If disabled, the Damage_Levels category is excluded from the multiworld.
+    true: 0
+    false: 50
+
+  include_timer_speed:
+    # If enabled, Timer Speed items and locations are included in the seed.
+    # If disabled, the Timer_Speed category is excluded from the multiworld.
+    true: 0
+    false: 50
+
+  include_speed_select:
+    # If enabled, Speed Select items and locations are included in the seed.
+    # If disabled, the Speed_Select category is excluded from the multiworld.
+    true: 0
+    false: 50
+
+  include_max_rounds:
+    # If enabled, Max Rounds items and locations are included in the seed.
+    # If disabled, the Max_Rounds category is excluded from the multiworld.
+    true: 0
+    false: 50
 
   ###########################
   # Item & Location Options #

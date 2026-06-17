@@ -57,6 +57,18 @@ J’aimerais ajouter davantage d’objectifs et rendre la configuration du YAML 
 
 ## Notes de patch
 
+### Version 0.2.2 : Correctif Update
+- Correction des problèmes de Street Fighter Alpha 1 après la mise à jour de Manual Archipelago.
+- Suppression des events et régions d'exemple qui pouvaient bloquer la génération du YAML, comme Marvel event, Capcom event, Stars%, ExampleRegion et Example_Range.
+- Nettoyage des options de jeu optionnelles afin que les options désactivées retirent maintenant leurs items et leurs checks.
+- Ajout des conditions YAML sur les items de départ optionnels.
+- Suppression de l'option inutilisée DLC_enabled dans le projet Street Fighter Alpha 1.
+- Mise à jour du YAML par défaut avec les nouvelles options include.
+- Nettoyage de la documentation web et des informations meta pour Street Fighter Alpha 1.
+- Suppression du fichier de documentation template UltimateMarvelVsCapcom3 inutilisé.
+- Correction de plusieurs noms de locations et fautes, comme Shadowloo, Deafeat et le problème d'apostrophe de Sodom.
+- Reconstruction du fichier manual_sfa1_narusnake.apworld.
+
 ### Version 0.2.1 : Migration vers la nouvelle version archipelago
 - Mise a jour de tout les dossier vers la nouvelel version archipelago pour tout les projet.
 

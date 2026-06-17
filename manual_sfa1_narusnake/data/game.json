@@ -18,23 +18,28 @@
 		},
     {
       "item_categories": [ "Difficulty" ],
-      "random": 1
+      "random": 1,
+      "yaml_option": [ "include_difficulty" ]
     },
     {
       "item_categories": [ "Damage_Levels" ],
-      "random": 1
+      "random": 1,
+      "yaml_option": [ "include_damage_levels" ]
     },
     {
       "item_categories": [ "Timer_Speed" ],
-      "random": 1
+      "random": 1,
+      "yaml_option": [ "include_timer_speed" ]
     },
     {
       "item_categories": [ "Speed_Select" ],
-      "random": 1
+      "random": 1,
+      "yaml_option": [ "include_speed_select" ]
     },
     {
       "item_categories": [ "Max_Rounds" ],
-      "random": 1
+      "random": 1,
+      "yaml_option": [ "include_max_rounds" ]
     }
   ]
 

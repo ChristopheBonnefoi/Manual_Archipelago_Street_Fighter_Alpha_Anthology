@@ -397,7 +397,7 @@
         "requires": "|Charlie Nash| and |Arcade Mode|"
     },
     {
-        "name": "Charlie Nash - Hunt Down Shadowloo - Defeat M.Bison",
+        "name": "Charlie Nash - Hunt Down Shadaloo - Defeat M.Bison",
         "category": ["Charlie Nash"],
         "requires": "|Charlie Nash| and |Arcade Mode| and |Survival Mode|"
     },
@@ -1505,7 +1505,7 @@
         "requires": "|Sodom| and |Arcade Mode|"
     },
     {
-        "name": "Sodom - Mad Gear’s Challenge - Defeat Guy",
+        "name": "Sodom - Mad Gear's Challenge - Defeat Guy",
         "category": ["Sodom"],
         "requires": "|Sodom| and |Arcade Mode| and |Survival Mode|"
     },
@@ -1595,22 +1595,22 @@
         "requires": "|Sodom| and (|Arcade Mode| or |Survival Mode|) and |@Super:1|"
     },
     {
-        "name": "Fight 01 - Deafeat Adon in Dramatic Battle Mode",
+        "name": "Fight 01 - Defeat Adon in Dramatic Battle Mode",
         "category": ["Dramatic Battle"],
         "requires": "|Dramatic Battle Mode| and |@Characters:2|"
     },
     {
-        "name": "Fight 02 - Deafeat Sagat in Dramatic Battle Mode",
+        "name": "Fight 02 - Defeat Sagat in Dramatic Battle Mode",
         "category": ["Dramatic Battle"],
         "requires": "|Dramatic Battle Mode| and |@Characters:2|"
     },
     {
-        "name": "Fight 03 - Deafeat M.Bison in Dramatic Battle Mode",
+        "name": "Fight 03 - Defeat M.Bison in Dramatic Battle Mode",
         "category": ["Dramatic Battle"],
         "requires": "|Dramatic Battle Mode| and |@Characters:2|"
     },
     {
-        "name": "Fight 04 - Deafeat Akuma in Dramatic Battle Mode",
+        "name": "Fight 04 - Defeat Akuma in Dramatic Battle Mode",
         "category": ["Dramatic Battle"],
         "requires": "|Dramatic Battle Mode| and |@Characters:2|"
     },
@@ -1686,122 +1686,122 @@
     },
     {
         "name": "Win Arcade Mode on 1-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 1 Star|"
     },
     {
         "name": "Win Arcade Mode on 2-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 2 Stars|"
     },
     {
         "name": "Win Arcade Mode on 3-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 3 Stars|"
     },
     {
         "name": "Win Arcade Mode on 4-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 4 Stars|"
     },
     {
         "name": "Win Arcade Mode on 5-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 5 Stars|"
     },
     {
         "name": "Win Arcade Mode on 6-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 6 Stars|"
     },
     {
         "name": "Win Arcade Mode on 7-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 7 Stars|"
     },
     {
         "name": "Win Arcade Mode on 8-Star Difficulty",
-        "category": ["Option"],
+        "category": ["Options", "Difficulty"],
         "requires": "|Arcade Mode| and |Difficulty - 8 Stars|"
     },
     {
         "name": "Win Arcade Mode on 1-Star Damage Level",
-        "category": ["Option"],
+        "category": ["Options", "Damage_Levels"],
         "requires": "|Arcade Mode| and |Damage Levels - 1 Star|"
     },
     {
         "name": "Win Arcade Mode on 2-Star Damage Level",
-        "category": ["Option"],
+        "category": ["Options", "Damage_Levels"],
         "requires": "|Arcade Mode| and |Damage Levels - 2 Stars|"
     },
     {
         "name": "Win Arcade Mode on 3-Star Damage Level",
-        "category": ["Option"],
+        "category": ["Options", "Damage_Levels"],
         "requires": "|Arcade Mode| and |Damage Levels - 3 Stars|"
     },
     {
         "name": "Win Arcade Mode on 4-Star Damage Level",
-        "category": ["Option"],
+        "category": ["Options", "Damage_Levels"],
         "requires": "|Arcade Mode| and |Damage Levels - 4 Stars|"
     },
     {
         "name": "Win Arcade Mode on 1-Star Timer Speed",
-        "category": ["Option"],
+        "category": ["Options", "Timer_Speed"],
         "requires": "|Arcade Mode| and |Timer Speed - 1 Star|"
     },
     {
         "name": "Win Arcade Mode on 2-Star Timer Speed",
-        "category": ["Option"],
+        "category": ["Options", "Timer_Speed"],
         "requires": "|Arcade Mode| and |Timer Speed - 2 Stars|"
     },
     {
         "name": "Win Arcade Mode on 3-Star Timer Speed",
-        "category": ["Option"],
+        "category": ["Options", "Timer_Speed"],
         "requires": "|Arcade Mode| and |Timer Speed - 3 Stars|"
     },
     {
         "name": "Win Arcade Mode on 4-Star Timer Speed",
-        "category": ["Option"],
+        "category": ["Options", "Timer_Speed"],
         "requires": "|Arcade Mode| and |Timer Speed - 4 Stars|"
     },
     {
         "name": "Win Arcade Mode with Infinite Timer",
-        "category": ["Option"],
+        "category": ["Options", "Timer_Speed"],
         "requires": "|Arcade Mode| and |Timer Speed - Infinity|"
     },
     {
         "name": "Win Arcade Mode with Free Speed Select",
-        "category": ["Option"],
+        "category": ["Options", "Speed_Select"],
         "requires": "|Arcade Mode| and |Speed Select - Free|"
     },
     {
         "name": "Win Arcade Mode with Turbo 0 Speed",
-        "category": ["Option"],
+        "category": ["Options", "Speed_Select"],
         "requires": "|Arcade Mode| and |Speed Select - Turbo 0|"
     },
     {
         "name": "Win Arcade Mode with Turbo 1 Speed",
-        "category": ["Option"],
+        "category": ["Options", "Speed_Select"],
         "requires": "|Arcade Mode| and |Speed Select - Turbo 1|"
     },
     {
         "name": "Win Arcade Mode with Turbo 2 Speed",
-        "category": ["Option"],
+        "category": ["Options", "Speed_Select"],
         "requires": "|Arcade Mode| and |Speed Select - Turbo 2|"
     },
     {
         "name": "Win Arcade Mode with 1 Round",
-        "category": ["Option"],
+        "category": ["Options", "Max_Rounds"],
         "requires": "|Arcade Mode| and |Max Rounds - 1|"
     },
     {
         "name": "Win Arcade Mode with 3 Rounds",
-        "category": ["Option"],
+        "category": ["Options", "Max_Rounds"],
         "requires": "|Arcade Mode| and |Max Rounds - 3|"
     },
     {
         "name": "Win Arcade Mode with 5 Rounds",
-        "category": ["Option"],
+        "category": ["Options", "Max_Rounds"],
         "requires": "|Arcade Mode| and |Max Rounds - 5|"
     },
     {

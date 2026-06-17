@@ -29,145 +29,145 @@
     },
     {
         "name": "Difficulty - 1 Star",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 2 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 3 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 4 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 5 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 6 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 7 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Difficulty - 8 Stars",
-        "category": [ "Game_Options", "Difficulty"],
+        "category": [ "Options", "Difficulty"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 1 Star",
-        "category": [ "Game_Options", "Damage_Levels"],
+        "category": [ "Options", "Damage_Levels"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 2 Stars",
-        "category": [ "Game_Options", "Damage_Levels"],
+        "category": [ "Options", "Damage_Levels"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 3 Stars",
-        "category": [ "Game_Options", "Damage_Levels"],
+        "category": [ "Options", "Damage_Levels"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Damage Levels - 4 Stars",
-        "category": [ "Game_Options", "Damage_Levels"],
+        "category": [ "Options", "Damage_Levels"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 1 Star",
-        "category": [ "Game_Options", "Timer_Speed"],
+        "category": [ "Options", "Timer_Speed"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 2 Stars",
-        "category": [ "Game_Options", "Timer_Speed"],
+        "category": [ "Options", "Timer_Speed"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 3 Stars",
-        "category": [ "Game_Options", "Timer_Speed"],
+        "category": [ "Options", "Timer_Speed"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - 4 Stars",
-        "category": [ "Game_Options", "Timer_Speed"],
+        "category": [ "Options", "Timer_Speed"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Timer Speed - Infinity",
-        "category": [ "Game_Options", "Timer_Speed"],
+        "category": [ "Options", "Timer_Speed"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Free",
-        "category": [ "Game_Options", "Speed_Select"],
+        "category": [ "Options", "Speed_Select"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Turbo 0",
-        "category": [ "Game_Options", "Speed_Select"],
+        "category": [ "Options", "Speed_Select"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Turbo 1",
-        "category": [ "Game_Options", "Speed_Select"],
+        "category": [ "Options", "Speed_Select"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Speed Select - Turbo 2",
-        "category": [ "Game_Options", "Speed_Select"],
+        "category": [ "Options", "Speed_Select"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Max Rounds - 1",
-        "category": [ "Game_Options", "Max_Rounds"],
+        "category": [ "Options", "Max_Rounds"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Max Rounds - 3",
-        "category": [ "Game_Options", "Max_Rounds"],
+        "category": [ "Options", "Max_Rounds"],
         "count": 1,
         "progression": true
     },
     {
         "name": "Max Rounds - 5",
-        "category": [ "Game_Options", "Max_Rounds"],
+        "category": [ "Options", "Max_Rounds"],
         "count": 1,
         "progression": true
     },
