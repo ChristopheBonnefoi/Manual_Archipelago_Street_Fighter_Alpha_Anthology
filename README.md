@@ -48,19 +48,19 @@ I would like to add more goals and make the YAML configuration as flexible as po
 ## Patch Notes
 
 ### Version 0.2.0: Street Fighter Alpha 1 New Logic Update
-- Réécriture des syntaxe des requires
-- Améliorations de la logique.
-- Supprission des catégorier  other game mode ou other character
-- Reclassement par ordre alphabétique des perosnage dans item et location . json
-- Ajout de check sur le Survival Mode
-- Ajout des options Max_Rounds, Speed_Select, Timer_Speed, Damage_Levels, Difficulty dans les pull d'item et sonr egrouper dans la Catégory Game_Options dans le clients
-- Ajout de plusieurs nouveau Goal
-- Ajout de check rivalité pour chaque personnage
-- Modifier les require pour les check avec les super
-- Ajout de check spéciaux
-- Modification du Option.json
-- Création de check de catégorie option
-- Ajout d'item de depars dans le Game.json
+- Rewrote the requires syntax.
+- Improved the logic.
+- Removed the Other Game Mode and Other Character categories.
+- Reorganized characters in alphabetical order in item.json and location.json.
+- Added checks for Survival Mode.
+- Added the Max_Rounds, Speed_Select, Timer_Speed, Damage_Levels, and Difficulty options to the item pool. These are grouped under the Game_Options category in the client.
+- Added several new goals.
+- Added rivalry checks for each character.
+- Modified the requires conditions for checks involving super combos.
+- Added special checks.
+- Modified Option.json.
+- Created checks for the Option category.
+- Added starting items in Game.json.
 
 ### Version 0.1.0: Street Fighter Alpha 1 Update
 - Initial Beta release.

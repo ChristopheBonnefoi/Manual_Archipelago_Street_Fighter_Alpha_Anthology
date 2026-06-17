@@ -22,50 +22,61 @@
         }
     },
     "user": {
-        "Difficulty": {
-            "display_name": "Difficulty",
-            "description": [
-                "Increase the difficulty of the item pool to customize how challenging you want your playthrough to be."
-            ],
+        "_commented_out_option":{
             "type": "Toggle",
-            "default": false,
-            "group": "Gameplay Options"
+            "default": true
         },
-        "Damage_Levels": {
-            "display_name": "Damage Levels",
+        "Example_Toggle":{
             "description": [
-                "Increase the difficulty of the item pool to customize how challenging you want your playthrough to be."
+                "This is a Toggle",
+                "A simple boolean, aka True or False set the initial value with \"default\""
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Example Options"
         },
-        "Timer_Speed": {
-            "display_name": "Timer Speed",
+        "Example_Choice":{
+            "type": "Choice",
             "description": [
-                "Increase the difficulty of the item pool to customize how challenging you want your playthrough to be."
+                "This is a Choice",
+                "Let the user pick from a list of values",
+                "allow_custom_value let a player define their own text value",
+                "Currently the only use for Choice in Manual outside of hooks is the goal"
             ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Gameplay Options"
+            "values": {
+                "start":0,
+                "test":1
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Example Options"
         },
-        "Speed_Select": {
-            "display_name": "Speed Select",
+        "Example_Range":{
+            "type": "Range",
             "description": [
-                "Increase the difficulty of the item pool to customize how challenging you want your playthrough to be."
+                "This is a Range",
+                "Allow the player to specify a value between 'start' and 'end'",
+                "if you include a \"values\" you can define the label for certain values",
+                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
             ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Gameplay Options"
+            "range_start": 0,
+            "default": 1,
+            "range_end": 5,
+            "values": {"example": 2},
+            "group": "Example Options"
         },
-        "Max_Rounds": {
-            "display_name": "Max Rounds",
-            "description": [
-                "Increase the difficulty of the item pool to customize how challenging you want your playthrough to be."
-            ],
+
+        "DLC_enabled":{
+            "display_name": "DLC Enabled",
+            "description": "Is the Dlc enabled?",
             "type": "Toggle",
-            "default": false,
-            "group": "Gameplay Options"
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": true
         }
     }
+
 }
