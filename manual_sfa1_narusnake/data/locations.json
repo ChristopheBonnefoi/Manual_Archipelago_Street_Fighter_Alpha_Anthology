@@ -1808,7 +1808,7 @@
         "name": "Shadaloo Emblem Cleared",
         "victory": true,
         "category": ["Goal"],
-        "requires": "|Shadaloo Emblem:ALL|"
+        "requires": "{OptionCount(Shadaloo Emblem, shadaloo_emblems_required)}"
     },
     {
         "name": "All Arcade Modes Cleared",
@@ -1832,6 +1832,6 @@
         "name": "Full Game + Shadaloo Emblem Cleared",
         "victory": true,
         "category": ["Goal"],
-        "requires": "|@Characters:ALL| and |@Game_Modes:ALL| and |Shadaloo Emblem:ALL|"
+        "requires": "|@Characters:ALL| and |@Game_Modes:ALL| and {OptionCount(Shadaloo Emblem, shadaloo_emblems_required)}"
     }
 ]

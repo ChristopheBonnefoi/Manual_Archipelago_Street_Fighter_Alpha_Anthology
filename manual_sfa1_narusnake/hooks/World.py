@@ -11,6 +11,7 @@ from ..Locations import ManualLocation
 #          data/game.json, data/items.json, data/locations.json, data/regions.json
 #
 from ..Data import game_table, item_table, location_table, region_table
+from ..Locations import victory_names
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat, remove_specific_item
@@ -70,6 +71,19 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    token_goal_names = {
+        "Shadaloo Emblem Cleared",
+        "Full Game + Shadaloo Emblem Cleared"
+    }
+
+    goal_index = get_option_value(multiworld, player, "goal")
+    goal_name = victory_names[goal_index] if 0 <= goal_index < len(victory_names) else ""
+
+    if goal_name in token_goal_names:
+        item_config["Shadaloo Emblem"] = get_option_value(multiworld, player, "shadaloo_emblems_required")
+    else:
+        item_config["Shadaloo Emblem"] = 0
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage

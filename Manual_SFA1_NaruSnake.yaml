@@ -71,6 +71,20 @@ Manual_SFA1_NaruSnake:
     full game cleared: 0
     full game + shadaloo emblem cleared: 0
 
+  shadaloo_emblems_required:
+    # Choose how many Shadaloo Emblems are required for Shadaloo Emblem goals.
+    # This can be set from 1 to 100, or randomized in the YAML for a surprise objective.
+    # Shadaloo Emblems are only added to the item pool when the selected goal requires them.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
   include_difficulty:
     # If enabled, Difficulty items and locations are included in the seed.
     # If disabled, the Difficulty category is excluded from the multiworld.

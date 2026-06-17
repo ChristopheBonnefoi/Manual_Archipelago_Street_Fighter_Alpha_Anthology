@@ -33,7 +33,7 @@ Les autres jeux seront ajoutés dans de futures mises à jour.
 
 #### Objectif :
 
-**Token** : L’objectif actuel est de collecter 25 tokens.
+**Token** : L'objectif Shadaloo Emblem peut être configuré dans le YAML pour demander un nombre de tokens entre 1 et 100, ou être randomisé pour un objectif surprise. Les tokens sont ajoutés au pool d'items seulement quand l'objectif choisi en a besoin.
 
 #### Modes :
 
@@ -56,6 +56,16 @@ Les autres jeux seront ajoutés dans de futures mises à jour.
 J’aimerais ajouter davantage d’objectifs et rendre la configuration du YAML aussi flexible que possible. Peut-être qu’un système où il faudrait récupérer les techniques de chaque personnage dans le pool d’items pourrait être ajouté, mais ce sera lorsque j’aurai appris à utiliser les hooks, afin de laisser aux joueurs la possibilité d’activer ou de désactiver cette fonctionnalité.
 
 ## Notes de patch
+
+### Version 0.3.0 : Yaml + Token Update
+- Ajout de l'option YAML `shadaloo_emblems_required` pour les objectifs Shadaloo Emblem.
+- Les joueurs peuvent maintenant choisir un nombre de tokens Shadaloo Emblem entre 1 et 100.
+- Ajout du support des valeurs random dans le YAML pour avoir un objectif surprise.
+- Mise à jour de la logique des objectifs Shadaloo Emblem afin d'utiliser la valeur du YAML au lieu d'un nombre fixe de tokens.
+- Ajout d'un hook afin que les tokens Shadaloo Emblem soient ajoutés au pool d'items seulement quand l'objectif choisi en a besoin.
+- Mise à jour du template YAML par défaut avec la nouvelle option de tokens.
+- Mise à jour des README pour expliquer le nouveau comportement des tokens.
+- Reconstruction du fichier manual_sfa1_narusnake.apworld.
 
 ### Version 0.2.2 : Correctif Update
 - Correction des problèmes de Street Fighter Alpha 1 après la mise à jour de Manual Archipelago.

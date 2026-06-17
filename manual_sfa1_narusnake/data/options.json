@@ -25,6 +25,19 @@
         }
     },
     "user": {
+        "shadaloo_emblems_required": {
+            "display_name": "Shadaloo Emblems Required",
+            "description": [
+                "Choose how many Shadaloo Emblems are required for Shadaloo Emblem goals.",
+                "This can be set from 1 to 100, or randomized in the YAML for a surprise objective.",
+                "Shadaloo Emblems are only added to the item pool when the selected goal requires them."
+            ],
+            "type": "Range",
+            "range_start": 1,
+            "range_end": 100,
+            "default": 100,
+            "group": "Goal Options"
+        },
         "include_difficulty": {
             "display_name": "Include Difficulty Items",
             "description": [

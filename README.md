@@ -27,7 +27,7 @@ The other games will be added in future updates.
 ### Street Fighter Alpha 1:
 
 #### Goal:
-**Token**: The current goal is to collect 25 tokens.
+**Token**: The Shadaloo Emblem goal can be configured in the YAML to require any amount from 1 to 100 tokens, or randomized for a surprise objective. Tokens are only added to the item pool when the selected goal needs them.
 
 #### Mode:
 - **Arcade Mode:** The classic game mode.
@@ -46,6 +46,16 @@ The other games will be added in future updates.
 I would like to add more goals and make the YAML configuration as flexible as possible. Perhaps a system where you need to collect each character's techniques in the item pool, but that will be when I learn how to implement hooks to still give players the option to enable or disable this feature.
 
 ## Patch Notes
+
+### Version 0.3.0: Yaml + Token Update
+- Added the `shadaloo_emblems_required` YAML option for the Shadaloo Emblem goals.
+- Players can now choose any Shadaloo Emblem token amount between 1 and 100.
+- Added support for random token values in the YAML for a surprise objective.
+- Updated the Shadaloo Emblem goal logic to use the YAML value instead of a fixed token requirement.
+- Added a hook so Shadaloo Emblem tokens are only added to the item pool when the selected goal needs them.
+- Updated the default YAML template with the new token option.
+- Updated the README files to explain the new token behavior.
+- Rebuilt the manual_sfa1_narusnake.apworld file.
 
 ### Version 0.2.2: Correctif Update
 - Fixed Street Fighter Alpha 1 issues after the Manual Archipelago update.
