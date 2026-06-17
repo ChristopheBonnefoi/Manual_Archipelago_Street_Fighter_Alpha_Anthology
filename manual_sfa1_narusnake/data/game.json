@@ -9,13 +9,33 @@
 			"random": 1
 		},
     {
+      "item_categories": ["Characters"],
+      "random": 1
+    },
+    {
 			"item_categories": [ "Game_Speed" ],
 			"random": 1
 		},
     {
-			"item_categories": [ "Characters" ],
-			"random": 1
-		}
+      "item_categories": [ "Difficulty" ],
+      "random": 1
+    },
+    {
+      "item_categories": [ "Damage_Levels" ],
+      "random": 1
+    },
+    {
+      "item_categories": [ "Timer_Speed" ],
+      "random": 1
+    },
+    {
+      "item_categories": [ "Speed_Select" ],
+      "random": 1
+    },
+    {
+      "item_categories": [ "Max_Rounds" ],
+      "random": 1
+    }
   ]
 
 }

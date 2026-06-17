@@ -47,6 +47,21 @@ I would like to add more goals and make the YAML configuration as flexible as po
 
 ## Patch Notes
 
+### Version 0.2.0: Street Fighter Alpha 1 New Logic Update
+- Réécriture des syntaxe des requires
+- Améliorations de la logique.
+- Supprission des catégorier  other game mode ou other character
+- Reclassement par ordre alphabétique des perosnage dans item et location . json
+- Ajout de check sur le Survival Mode
+- Ajout des options Max_Rounds, Speed_Select, Timer_Speed, Damage_Levels, Difficulty dans les pull d'item et sonr egrouper dans la Catégory Game_Options dans le clients
+- Ajout de plusieurs nouveau Goal
+- Ajout de check rivalité pour chaque personnage
+- Modifier les require pour les check avec les super
+- Ajout de check spéciaux
+- Modification du Option.json
+- Création de check de catégorie option
+- Ajout d'item de depars dans le Game.json
+
 ### Version 0.1.0: Street Fighter Alpha 1 Update
 - Initial Beta release.
 - Creation of all item types: Characters, Game Mode, Token, Super, etc.
@@ -58,7 +73,7 @@ I would like to add more goals and make the YAML configuration as flexible as po
 - The Game Speed is currently either normal or speed on.
 - Added all characters for Arcade Mode.
 - Added Dan, Akuma, and M. Bison for Survival and Dramatic Battle modes. To ensure seed generation is not blocked, these three characters have their own category.
-- Goal set to 25 tokens.
+- Goal set to 100 tokens.
 
 ## How to Contribute
 We welcome contributions from everyone. Here are a few ways you can help:

@@ -1,5 +1,20 @@
 {
-    "Example Logic only category": {
+    "Game_Options": {
+        "hidden": false
+    },
+    "Difficulty": {
+        "hidden": true
+    },
+    "Damage_Levels": {
+        "hidden": true
+    },
+    "Timer_Speed": {
+        "hidden": true
+    },
+    "Speed_Select": {
+        "hidden": true
+    },
+    "Max_Rounds": {
         "hidden": true
     }
 }
