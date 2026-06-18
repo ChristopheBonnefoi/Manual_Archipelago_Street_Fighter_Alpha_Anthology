@@ -5,7 +5,7 @@ Welcome to the official repository for the Archipelago Manual for Street Fighter
 
 ## Project:
 
-The project is currently in ***Beta***. The goal is to combine all 5 games available in the collection and the 2 secret games into one, creating a total of 7 games in 1. I am also providing the option to play each game individually. Here is the list of games:
+The project is currently in ***Beta***. The goal is to combine the compatible games available in the collection into one Manual Archipelago project. I am also providing the option to play each game individually. Here is the list of games:
 
 The 5 base games:
 - **Street Fighter Alpha**
@@ -17,6 +17,9 @@ The 5 base games:
 The 2 secret games:
 - **Street Fighter Alpha 3 Upper**
 - **Hyper Street Fighter Alpha**
+
+**Important note about Hyper Street Fighter Alpha:**
+Hyper Street Fighter Alpha will not be added to the Archipelago Manual. It is mainly a 2-player versus mode and does not have CPU progression, so it does not fit the check and goal structure used by this project.
 
 Currently, I am treating the games individually before starting work on the unified version. I am still considering how to manage items. For example, for characters like Ryu, who appear in all games, should I make them available across all games with the item name "Ryu," or should players need to collect them for each game with items named "Ryu Alpha 1," "Ryu Alpha 2," etc.? I also provide the option to play the games individually for those who prefer to play only one or two games from the list (although later on, I plan to configure the YAML to allow game selection in the pool. However, for that, I would need to use hooks, which I do not currently know how to implement).
 
@@ -52,6 +55,13 @@ The other games will be added in future updates.
 I would like to add more goals and make the YAML configuration as flexible as possible. Perhaps a system where you need to collect each character's techniques in the item pool, but that will be when I learn how to implement hooks to still give players the option to enable or disable this feature.
 
 ## Patch Notes
+
+### Version 0.4.1: Documentation Update
+- Added English and French Street Fighter Alpha 1 guides in the new `guides` folder.
+- Added explanations for characters, game modes, goals, Shadaloo Emblem tokens, common checks, and YAML configuration.
+- Added a French setup guide for the Street Fighter Alpha 1 manual documentation.
+- Updated the Street Fighter Alpha 1 meta documentation so the French setup guide can be listed by Archipelago.
+- Clarified that Hyper Street Fighter Alpha will not be included because it is a 2-player versus mode without CPU progression.
 
 ### Version 0.4.0: YAML Cleanup + Game Mode Selection
 - Added YAML options for `arcade_mode`, `survival_mode`, and `dramatic_battle_mode`.

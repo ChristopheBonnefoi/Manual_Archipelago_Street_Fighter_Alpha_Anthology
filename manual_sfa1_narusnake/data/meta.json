@@ -15,7 +15,19 @@
                     "language": "English",
                     "file_name": "setup_en.md",
                     "link": "setup/en",
-                    "authors": ["NaruSnake"]
+                    "authors": [
+                        "NaruSnake"
+                    ]
+                },
+                {
+                    "name": "Guide d'installation du Manual Street Fighter Alpha",
+                    "description": "Un guide pour jouer à Street Fighter Alpha avec le client Manual.",
+                    "language": "French",
+                    "file_name": "setup_fr.md",
+                    "link": "setup/fr",
+                    "authors": [
+                        "NaruSnake"
+                    ]
                 }
             ]
         }
