@@ -50,5 +50,8 @@
         "yaml_option": [
             "max_rounds"
         ]
+    },
+    "Filler": {
+        "hidden": false
     }
 }

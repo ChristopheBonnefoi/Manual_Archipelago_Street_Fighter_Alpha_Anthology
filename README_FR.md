@@ -67,6 +67,15 @@ J’aimerais ajouter davantage d’objectifs et rendre la configuration du YAML 
 
 ## Notes de patch
 
+### Version 0.4.2 : Filler Update
+- Ajout d'items filler personnalisés pour Street Fighter Alpha 1 avec la catégorie `Filler` et `count: 0`.
+- Traduction des nouveaux noms d'items filler du français vers l'anglais.
+- Ajout d'un hook filler dynamique basé sur la logique filler de Tekken 2.
+- Les checks vides reçoivent maintenant un item filler personnalisé aléatoire au lieu d'utiliser uniquement le fallback générique `Points`.
+- Ajout de clés de tri côté client afin de garder les checks mieux ordonnés.
+- Ajout de la catégorie visible `Filler` afin que les items filler personnalisés soient correctement groupés dans le client.
+- Ajout d'une sécurité pour limiter le nombre de tokens Shadaloo Emblem entre 1 et 100 quand un objectif à tokens est choisi.
+
 ### Version 0.4.1 : Documentation Update
 - Ajout des guides Street Fighter Alpha 1 en anglais et en français dans le nouveau dossier `guides`.
 - Ajout d'explications pour les personnages, les modes de jeu, les objectifs, les tokens Shadaloo Emblem, les checks courants et la configuration YAML.

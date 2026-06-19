@@ -35,6 +35,13 @@ GOAL_REQUIRED_OPTIONS = {
     "All Survival Modes Cleared": ["survival_mode"],
 }
 
+FILLER_CATEGORY_NAME = "Filler"
+FILLER_ITEM_NAMES = tuple(
+    item["name"]
+    for item in item_table
+    if FILLER_CATEGORY_NAME in item.get("category", [])
+)
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -52,6 +59,8 @@ GOAL_REQUIRED_OPTIONS = {
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
+    if FILLER_ITEM_NAMES:
+        return world.random.choice(FILLER_ITEM_NAMES)
     return False
 
 def get_selected_goal_name(multiworld: MultiWorld, player: int) -> str:
@@ -196,7 +205,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
     goal_name = get_selected_goal_name(multiworld, player)
 
     if is_token_goal(goal_name):
-        item_config["Shadaloo Emblem"] = get_option_value(multiworld, player, "shadaloo_emblems_required")
+        item_config["Shadaloo Emblem"] = max(1, min(100, int(get_option_value(multiworld, player, "shadaloo_emblems_required"))))
     else:
         item_config["Shadaloo Emblem"] = 0
 

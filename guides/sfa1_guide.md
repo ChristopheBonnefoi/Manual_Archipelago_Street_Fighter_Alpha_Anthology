@@ -142,6 +142,20 @@ Token goals:
 
 Non-token goals ignore the Shadaloo Emblem requirement during generation, even if the option is still visible in the YAML.
 
+## Filler Items
+
+When a seed has more active checks than real items to place, the manual fills the empty checks with filler items.
+
+Street Fighter Alpha 1 uses custom cosmetic filler items instead of only using the generic `Points` fallback.
+
+These filler items:
+
+- are selected dynamically during generation;
+- use the `Filler` category;
+- have `count: 0` in `items.json`;
+- do not unlock anything;
+- do not affect progression.
+
 ## YAML Guide
 
 The YAML file controls the options for your seed.

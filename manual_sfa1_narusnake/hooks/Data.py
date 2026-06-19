@@ -1,3 +1,88 @@
+import re
+
+
+_GOAL_CATEGORY = "Goal"
+_DRAMATIC_BATTLE_CATEGORY = "Dramatic Battle"
+_OPTIONS_CATEGORY = "Options"
+_OPTION_CATEGORY_ORDER = {
+    "Difficulty": 10,
+    "Damage_Levels": 20,
+    "Timer_Speed": 30,
+    "Speed_Select": 40,
+    "Max_Rounds": 50,
+}
+
+
+def _categories(location: dict) -> list[str]:
+    categories = location.get("category", [])
+
+    if isinstance(categories, str):
+        return [categories]
+
+    return categories
+
+
+def _primary_category(location: dict) -> str:
+    categories = _categories(location)
+    return categories[0] if categories else ""
+
+
+def _build_option_sort_key(location: dict, location_index: int) -> str:
+    name = location.get("name", "")
+    categories = _categories(location)
+
+    for category in categories:
+        if category in _OPTION_CATEGORY_ORDER:
+            return f"{_OPTIONS_CATEGORY} {_OPTION_CATEGORY_ORDER[category]} {location_index} {name}"
+
+    return f"{_OPTIONS_CATEGORY} 99 {location_index} {name}"
+
+
+def _build_location_sort_key(location: dict, location_index: int) -> str:
+    name = location.get("name", "")
+    category = _primary_category(location)
+
+    if category == _GOAL_CATEGORY or location.get("victory"):
+        return f"{_GOAL_CATEGORY} {location_index} {name}"
+
+    if category == _OPTIONS_CATEGORY:
+        return _build_option_sort_key(location, location_index)
+
+    if category == _DRAMATIC_BATTLE_CATEGORY:
+        match = re.match(r"^Fight (\d+) - .* in Dramatic Battle Mode$", name)
+        if match:
+            return f"{_DRAMATIC_BATTLE_CATEGORY} 10 Fight {int(match.group(1))}"
+        return f"{_DRAMATIC_BATTLE_CATEGORY} 99 {location_index} {name}"
+
+    if not category:
+        return f"Other {location_index} {name}"
+
+    match = re.match(rf"^{re.escape(category)} - Fight (\d+) Clear$", name)
+    if match:
+        return f"{category} 10 Arcade Fight {int(match.group(1))}"
+
+    if name == f"{category} - Win Arcade Mode":
+        return f"{category} 10 Arcade Fight 99 Win Arcade Mode"
+
+    match = re.match(rf"^{re.escape(category)} - Fight (\d+) in Survival Mode$", name)
+    if match:
+        return f"{category} 20 Survival Fight {int(match.group(1))}"
+
+    if name == f"{category} - Get Perfect Round":
+        return f"{category} 30 Perfect Round"
+
+    if name == f"{category} - Get Stun":
+        return f"{category} 31 Stun"
+
+    if name == f"{category} - Get First Attack":
+        return f"{category} 32 First Attack"
+
+    if name == f"{category} - Win Round With Super":
+        return f"{category} 33 Win With Super"
+
+    return f"{category} 40 Special {location_index} {name}"
+
+
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
     return game_table
@@ -14,6 +99,9 @@ def after_load_progressive_item_file(progressive_item_table: list) -> list:
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_location_file(location_table: list) -> list:
+    for location_index, location in enumerate(location_table):
+        location.setdefault("sort-key", _build_location_sort_key(location, location_index))
+
     return location_table
 
 # called after the events.json file has been loaded, before any processing has occurred

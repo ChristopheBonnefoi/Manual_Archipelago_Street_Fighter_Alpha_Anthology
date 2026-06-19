@@ -142,6 +142,20 @@ Objectifs à tokens :
 
 Les objectifs sans tokens ignorent la valeur Shadaloo Emblem pendant la génération, même si l'option reste visible dans le YAML.
 
+## Items filler
+
+Quand une seed possède plus de checks actifs que de vrais items à placer, le manual remplit les checks vides avec des items filler.
+
+Street Fighter Alpha 1 utilise des items filler cosmétiques personnalisés au lieu d'utiliser seulement le fallback générique `Points`.
+
+Ces items filler :
+
+- sont choisis dynamiquement pendant la génération ;
+- utilisent la catégorie `Filler` ;
+- ont `count: 0` dans `items.json` ;
+- ne débloquent rien ;
+- n'affectent pas la progression.
+
 ## Guide du YAML
 
 Le fichier YAML contrôle les options de votre seed.

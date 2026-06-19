@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "name": "Arcade Mode",
         "category": [
@@ -367,6 +367,188 @@
         ],
         "count": 3,
         "progression": true
+    },
+    {
+        "name": "Adon's Bandage",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Adon's Muay Thai Briefs",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Akuma's Juzu",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Akuma's Loincloth",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Birdie's Chain",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Birdie's Leather Thong",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Charlie Nash's Sunglasses",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Charlie Nash's Military Briefs",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Chun Li's Ribbon",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Chun Li's Chinese Panties",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Dan's Pink Gi",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Dan's Pink Thong",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Guy's Sneakers",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Guy's Ninja Briefs",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Ken's Red Ribbon",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Ken's American Briefs",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "M.Bison's General Cap",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "M.Bison's Dictator Thong",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Rose's Yellow Scarf",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Rose's Lace Thong",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Ryu's White Headband",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Ryu's Japanese Loincloth",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Sagat's Muay Thai Shorts",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Sagat's String Thong",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Sodom's Japanese Helmet",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
+    },
+    {
+        "name": "Sodom's Japanese Briefs",
+        "category": [
+            "Filler"
+        ],
+        "count": 0
     },
     {
         "name": "Shadaloo Emblem",

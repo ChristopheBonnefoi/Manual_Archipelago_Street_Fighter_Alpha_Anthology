@@ -56,6 +56,15 @@ I would like to add more goals and make the YAML configuration as flexible as po
 
 ## Patch Notes
 
+### Version 0.4.2: Filler Update
+- Added custom filler items for Street Fighter Alpha 1 using the `Filler` category and `count: 0`.
+- Translated the new filler item names from French to English.
+- Added a dynamic filler hook based on the Tekken 2 filler logic.
+- Empty checks now receive a random custom filler item instead of always using the generic `Points` fallback.
+- Added client-side location sort keys to keep checks ordered more cleanly.
+- Added the visible `Filler` category so custom filler items are grouped properly in the client.
+- Added a safety clamp for the Shadaloo Emblem token count when token goals are selected.
+
 ### Version 0.4.1: Documentation Update
 - Added English and French Street Fighter Alpha 1 guides in the new `guides` folder.
 - Added explanations for characters, game modes, goals, Shadaloo Emblem tokens, common checks, and YAML configuration.
