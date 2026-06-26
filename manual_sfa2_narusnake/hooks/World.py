@@ -151,7 +151,7 @@ def validate_yaml_mode_options(world: World, multiworld: MultiWorld, player: int
 
     if not enabled_modes:
         raise Exception(
-            "Manual_SFA1_NaruSnake requires at least one game mode to stay enabled."
+            "Manual_SFA2_NaruSnake requires at least one game mode to stay enabled."
         )
 
     goal_name = get_selected_goal_name(multiworld, player)

@@ -1,12 +1,12 @@
-# Guide Street Fighter Alpha 1
+# Guide Street Fighter Alpha 2
 
-Ce guide explique le manual Street Fighter Alpha 1 pour Archipelago. Il sert à aider les joueurs à comprendre les personnages, les modes de jeu, les objectifs, les checks, les tokens et les options YAML utilisées par ce manual.
+Ce guide explique le manual Street Fighter Alpha 2 pour Archipelago. Il sert à aider les joueurs à comprendre les personnages, les variantes cachées, les modes de jeu, les objectifs, les checks, les tokens Shadaloo Emblem et les options YAML utilisées par ce manual.
 
-Street Fighter Alpha 1 est actuellement le jeu le plus complet du projet. Les autres jeux de Street Fighter Alpha Anthology sont prévus pour de futures mises à jour.
+Street Fighter Alpha 2 est en cours d'intégration dans le projet Street Fighter Alpha Anthology. La logique pourra encore être ajustée dans de futures mises à jour.
 
 ## Personnages
 
-Street Fighter Alpha 1 utilise des items de personnages pour décider quels personnages le joueur peut utiliser pour valider les checks.
+Street Fighter Alpha 2 utilise des items de personnages pour décider quels personnages le joueur peut utiliser pour valider les checks.
 
 Les items de personnages actuels sont :
 
@@ -15,33 +15,103 @@ Les items de personnages actuels sont :
 - Birdie
 - Charlie Nash
 - Chun Li
+- Chun Li Classic/SF2
 - Dan
+- Dhalsim
+- Dhalsim EX
+- Evil Ryu
+- Gen
 - Guy
 - Ken
 - M.Bison
+- Rolento
 - Rose
 - Ryu
 - Sagat
+- Sakura
+- Shin Akuma
 - Sodom
+- Zangief
+- Zangief EX
 
-### Personnages en Arcade Mode
+### Notes des personnages
 
-Les checks Arcade Mode sont construits autour des personnages jouables dans le mode Arcade de Street Fighter Alpha 1 :
+Les noms ci-dessous correspondent aux noms d'items utilisés par le manual.
 
-- Adon
-- Birdie
-- Charlie Nash
-- Chun Li
-- Guy
-- Ken
-- Rose
-- Ryu
-- Sagat
-- Sodom
-
-Dan, M.Bison et Akuma ne sont pas utilisés comme personnages jouables en Arcade Mode dans ce manual. Ils font tout de même partie du manual parce qu'ils peuvent servir dans d'autres modes comme Survival Mode et Dramatic Battle Mode.
-
-Si seul l'Arcade Mode est activé, le générateur peut retirer les items de personnages qui n'ont plus de checks actifs.
+- **Adon**
+  - Rival conditionnel : M.Bison
+  - Boss final : Sagat
+- **Akuma**
+  - Rival conditionnel : Ryu
+  - Boss final : Gen
+- **Birdie**
+  - Rival conditionnel : Dhalsim
+  - Boss final : M.Bison
+- **Charlie Nash**
+  - Rival conditionnel : Rolento
+  - Boss final : M.Bison
+- **Chun Li**
+  - Rival conditionnel : Gen
+  - Boss final : M.Bison
+- **Chun Li Classic/SF2**
+  - Comment jouer : sur Chun Li, maintenir Start environ 5 secondes, puis valider.
+  - Rival conditionnel : Gen
+  - Boss final : M.Bison
+- **Dan**
+  - Rival conditionnel : Guy
+  - Boss final : Sagat
+- **Dhalsim**
+  - Rival conditionnel : Zangief
+  - Boss final : M.Bison
+- **Dhalsim EX**
+  - Comment jouer : sur Dhalsim, maintenir Start, faire Gauche, Bas, Droite, Haut, puis valider.
+  - Rival conditionnel : Zangief
+  - Boss final : M.Bison
+- **Evil Ryu**
+  - Comment jouer : sur Ryu, maintenir Start, faire Droite, Haut, Bas, Gauche, puis valider.
+  - Rival conditionnel : Sakura
+  - Boss final : Akuma
+- **Gen**
+  - Rival conditionnel : Chun Li
+  - Boss final : Akuma
+- **Guy**
+  - Rival conditionnel : Rose
+  - Boss final : M.Bison
+- **Ken**
+  - Rival conditionnel : Dan
+  - Boss final : Ryu
+- **M.Bison**
+  - Rival conditionnel : Charlie Nash
+  - Boss final : Ryu
+- **Rolento**
+  - Rival conditionnel : Sodom
+  - Boss final : Guy
+- **Rose**
+  - Rival conditionnel : Akuma
+  - Boss final : M.Bison
+- **Ryu**
+  - Rival conditionnel : Sakura
+  - Boss final : Akuma
+- **Sagat**
+  - Rival conditionnel : Adon
+  - Boss final : Ryu
+- **Sakura**
+  - Rival conditionnel : Sagat
+  - Boss final : Ryu
+- **Shin Akuma**
+  - Comment jouer : sur Akuma, maintenir Start environ 5 secondes, puis valider.
+  - Rival conditionnel : Ryu
+  - Boss final : Gen
+- **Sodom**
+  - Rival conditionnel : Ken
+  - Boss final : Guy
+- **Zangief**
+  - Rival conditionnel : Birdie
+  - Boss final : Ken
+- **Zangief EX**
+  - Comment jouer : sur Zangief, maintenir Start, faire Bas, Gauche quatre fois, Haut deux fois, Droite quatre fois, Bas, puis valider.
+  - Rival conditionnel : Birdie
+  - Boss final : Ken
 
 ### Utilisation des personnages
 
@@ -50,10 +120,10 @@ Quand vous recevez un item de personnage, vous pouvez utiliser ce personnage pou
 Par exemple :
 
 - `Ryu - Fight 01 Clear` demande Ryu.
-- `Ken - Win Arcade Mode` demande Ken.
-- `Akuma - Survival Fight 01 - Defeat Ken` demande Akuma et Survival Mode.
+- `Chun Li Classic/SF2 - Win Arcade Mode` demande Chun Li Classic/SF2.
+- `Evil Ryu - Survival Fight 18 - Defeat Akuma` demande Evil Ryu et Survival Mode.
 
-En Dramatic Battle Mode, le partenaire contrôlé par le jeu doit aussi être choisi en fonction des personnages que vous avez débloqués quand c'est possible.
+Les variantes cachées comme Evil Ryu, Shin Akuma, Dhalsim EX, Zangief EX et Chun Li Classic/SF2 doivent être utilisées seulement pour les checks qui demandent leur propre item.
 
 ## Modes de jeu
 
@@ -61,19 +131,19 @@ Le manual supporte actuellement trois modes de jeu principaux.
 
 ### Arcade Mode
 
-Arcade Mode est le mode classique de Street Fighter Alpha 1.
+Arcade Mode est le mode classique de Street Fighter Alpha 2.
 
-La plupart des checks Arcade sont basés sur le fait de terminer des combats avec un personnage précis, finir l'Arcade Mode, et compléter des objectifs spécifiques ou des checks de rivalité.
+La plupart des checks Arcade sont basés sur le fait de terminer des combats avec un personnage précis, finir l'Arcade Mode, et compléter des objectifs spécifiques, des checks de rivalité ou des checks spéciaux.
 
 ### Survival Mode
 
 Survival Mode est basé sur des combats de survie à terminer avec les personnages débloqués.
 
-Les checks sont écrits par personnage et par numéro de combat, par exemple :
+Les checks sont écrits par personnage, numéro de combat et nom d'adversaire, par exemple :
 
 - `Adon - Survival Fight 01 - Defeat Ken`
-- `Ryu - Survival Fight 10 - Defeat Adon`
-- `M.Bison - Survival Fight 13 - Defeat Akuma`
+- `Ryu - Survival Fight 10 - Defeat Rolento`
+- `Chun Li Classic/SF2 - Survival Fight 18 - Defeat Akuma`
 
 Si Survival Mode est désactivé dans le YAML, les checks Survival et l'item Survival Mode sont retirés de la seed.
 
@@ -81,9 +151,7 @@ Si Survival Mode est désactivé dans le YAML, les checks Survival et l'item Sur
 
 Dramatic Battle Mode est un mode difficile en 2 contre 1.
 
-Le manual utilise des checks spéciaux dans ce mode, comme obtenir un perfect, provoquer un stun, obtenir le first attack ou gagner avec un Super Combo.
-
-Comme ce mode utilise un partenaire, le partenaire doit être choisi parmi les personnages débloqués quand c'est possible.
+Le manual peut utiliser des checks dans ce mode, notamment des objectifs liés aux combats ou aux actions de combat. Comme ce mode utilise un partenaire, le partenaire doit être choisi parmi les personnages débloqués quand c'est possible.
 
 ## Game Speed et Speed Select
 
@@ -146,7 +214,7 @@ Les objectifs sans tokens ignorent la valeur Shadaloo Emblem pendant la généra
 
 Quand une seed possède plus de checks actifs que de vrais items à placer, le manual remplit les checks vides avec des items filler.
 
-Street Fighter Alpha 1 utilise des items filler cosmétiques personnalisés au lieu d'utiliser seulement le fallback générique `Points`.
+Street Fighter Alpha 2 utilise des items filler cosmétiques personnalisés au lieu d'utiliser seulement le fallback générique `Points`.
 
 Ces items filler :
 
@@ -311,17 +379,17 @@ Utilisez Ryu et terminez le combat indiqué.
 Exemple :
 
 ```text
-Ken - Win Arcade Mode
+Chun Li Classic/SF2 - Win Arcade Mode
 ```
 
-Utilisez Ken et terminez l'Arcade Mode.
+Utilisez le personnage ou la variante indiquée et terminez l'Arcade Mode.
 
 ### Checks Survival
 
 Exemple :
 
 ```text
-Rose - Survival Fight 10 - Defeat Adon
+Rose - Survival Fight 10 - Defeat Rolento
 ```
 
 Utilisez Rose en Survival Mode et terminez le combat Survival indiqué.
@@ -375,10 +443,17 @@ Certains checks sont basés sur des matchups précis ou des objectifs spéciaux.
 Exemple :
 
 ```text
-Ken - Rival's Pride - Defeat Ryu
+Ken - The Rival Finally Smiles - Defeat Dan
 ```
 
 Utilisez le personnage indiqué et complétez l'objectif décrit par le nom de la location.
+
+Note Rival Match pour Street Fighter Alpha 2 :
+
+- Les rival checks se font en Arcade Mode.
+- Pour déclencher le rival, ne perdez aucun round.
+- Gagnez au moins 5 rounds avec un Super Combo Finish ou un Custom Combo Finish.
+- Le rival remplace ensuite un adversaire normal avant la fin de la route.
 
 ### Checks d'options
 
@@ -396,5 +471,6 @@ Ce check demande que l'option YAML `speed_select` soit activée et que l'item Sp
 
 - Ce manual est encore en bêta.
 - La logique peut encore être ajustée dans de futures versions.
+- Les variantes cachées doivent utiliser le nom exact de l'item indiqué dans ce guide.
 - Si une seed semble impossible, vérifiez l'objectif choisi, les modes activés, les options optionnelles et le spoiler log.
 - Hyper Street Fighter Alpha n'est pas prévu pour ce manual parce que c'est principalement un mode versus 2 joueurs sans progression contre le CPU.

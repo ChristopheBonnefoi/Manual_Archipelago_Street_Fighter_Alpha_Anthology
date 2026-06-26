@@ -1,0 +1,71 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+    "game": "SFA2",
+    "creator": "NaruSnake",
+    "filler_item_name": "Points",
+    "starting_items": [
+        {
+            "item_categories": [
+                "Game_Modes"
+            ],
+            "random": 1
+        },
+        {
+            "item_categories": [
+                "Characters"
+            ],
+            "random": 1
+        },
+        {
+            "item_categories": [
+                "Game_Speed"
+            ],
+            "random": 1
+        },
+        {
+            "item_categories": [
+                "Difficulty"
+            ],
+            "random": 1,
+            "yaml_option": [
+                "difficulty"
+            ]
+        },
+        {
+            "item_categories": [
+                "Damage_Levels"
+            ],
+            "random": 1,
+            "yaml_option": [
+                "damage_levels"
+            ]
+        },
+        {
+            "item_categories": [
+                "Timer_Speed"
+            ],
+            "random": 1,
+            "yaml_option": [
+                "timer_speed"
+            ]
+        },
+        {
+            "item_categories": [
+                "Speed_Select"
+            ],
+            "random": 1,
+            "yaml_option": [
+                "speed_select"
+            ]
+        },
+        {
+            "item_categories": [
+                "Max_Rounds"
+            ],
+            "random": 1,
+            "yaml_option": [
+                "max_rounds"
+            ]
+        }
+    ]
+}

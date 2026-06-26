@@ -1,0 +1,57 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Options": {
+        "hidden": false
+    },
+    "Arcade_Mode": {
+        "hidden": true,
+        "yaml_option": [
+            "arcade_mode"
+        ]
+    },
+    "Survival_Mode": {
+        "hidden": true,
+        "yaml_option": [
+            "survival_mode"
+        ]
+    },
+    "Dramatic_Battle_Mode": {
+        "hidden": true,
+        "yaml_option": [
+            "dramatic_battle_mode"
+        ]
+    },
+    "Difficulty": {
+        "hidden": true,
+        "yaml_option": [
+            "difficulty"
+        ]
+    },
+    "Damage_Levels": {
+        "hidden": true,
+        "yaml_option": [
+            "damage_levels"
+        ]
+    },
+    "Timer_Speed": {
+        "hidden": true,
+        "yaml_option": [
+            "timer_speed"
+        ]
+    },
+    "Speed_Select": {
+        "hidden": true,
+        "yaml_option": [
+            "speed_select"
+        ]
+    },
+    "Max_Rounds": {
+        "hidden": true,
+        "yaml_option": [
+            "max_rounds"
+        ]
+    },
+    "Filler": {
+        "hidden": false
+    }
+}

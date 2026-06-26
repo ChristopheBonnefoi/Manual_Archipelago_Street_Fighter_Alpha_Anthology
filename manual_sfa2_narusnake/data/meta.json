@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.meta.schema.json",
+    "docs": {
+        "apworld_description": [
+            "Manual_SFA2_NaruSnake is a Manual Archipelago world for Street Fighter Alpha 2 on Street Fighter Alpha Anthology.",
+            "It tracks Arcade, Survival, Dramatic Battle, character unlocks, super combo progression, Shadaloo Emblems, and optional game settings."
+        ],
+        "web": {
+            "theme": "grass",
+            "bug_report_page": "https://discord.gg/T5bcsVHByx",
+            "tutorials": [
+                {
+                    "name": "Street Fighter Alpha 2 Manual Setup Guide",
+                    "description": "A guide to playing Street Fighter Alpha 2 with the Manual client.",
+                    "language": "English",
+                    "file_name": "setup_en.md",
+                    "link": "setup/en",
+                    "authors": [
+                        "NaruSnake"
+                    ]
+                },
+                {
+                    "name": "Guide d'installation du Manual Street Fighter Alpha 2",
+                    "description": "Un guide pour jouer ? Street Fighter Alpha 2 avec le client Manual.",
+                    "language": "French",
+                    "file_name": "setup_fr.md",
+                    "link": "setup/fr",
+                    "authors": [
+                        "NaruSnake"
+                    ]
+                }
+            ]
+        }
+    }
+}

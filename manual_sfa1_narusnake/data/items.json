@@ -1,561 +1,564 @@
-﻿[
-    {
-        "name": "Arcade Mode",
-        "category": [
-            "Game_Modes",
-            "Arcade_Mode"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Survival Mode",
-        "category": [
-            "Game_Modes",
-            "Survival_Mode"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Dramatic Battle Mode",
-        "category": [
-            "Game_Modes",
-            "Dramatic_Battle_Mode"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Game Speed - Normal",
-        "category": [
-            "Game_Speed"
-        ],
-        "count": 1
-    },
-    {
-        "name": "Game Speed - Turbo",
-        "category": [
-            "Game_Speed"
-        ],
-        "count": 1
-    },
-    {
-        "name": "Difficulty - 1 Star",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 2 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 3 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 4 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 5 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 6 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 7 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Difficulty - 8 Stars",
-        "category": [
-            "Options",
-            "Difficulty"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Damage Levels - 1 Star",
-        "category": [
-            "Options",
-            "Damage_Levels"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Damage Levels - 2 Stars",
-        "category": [
-            "Options",
-            "Damage_Levels"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Damage Levels - 3 Stars",
-        "category": [
-            "Options",
-            "Damage_Levels"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Damage Levels - 4 Stars",
-        "category": [
-            "Options",
-            "Damage_Levels"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Timer Speed - 1 Star",
-        "category": [
-            "Options",
-            "Timer_Speed"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Timer Speed - 2 Stars",
-        "category": [
-            "Options",
-            "Timer_Speed"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Timer Speed - 3 Stars",
-        "category": [
-            "Options",
-            "Timer_Speed"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Timer Speed - 4 Stars",
-        "category": [
-            "Options",
-            "Timer_Speed"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Timer Speed - Infinity",
-        "category": [
-            "Options",
-            "Timer_Speed"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Speed Select - Free",
-        "category": [
-            "Options",
-            "Speed_Select"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Speed Select - Turbo 0",
-        "category": [
-            "Options",
-            "Speed_Select"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Speed Select - Turbo 1",
-        "category": [
-            "Options",
-            "Speed_Select"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Speed Select - Turbo 2",
-        "category": [
-            "Options",
-            "Speed_Select"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Max Rounds - 1",
-        "category": [
-            "Options",
-            "Max_Rounds"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Max Rounds - 3",
-        "category": [
-            "Options",
-            "Max_Rounds"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Max Rounds - 5",
-        "category": [
-            "Options",
-            "Max_Rounds"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Adon",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Akuma",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Birdie",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Charlie Nash",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Chun Li",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Dan",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Guy",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Ken",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "M.Bison",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Rose",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Ryu",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Sagat",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Sodom",
-        "category": [
-            "Characters"
-        ],
-        "count": 1,
-        "progression": true
-    },
-    {
-        "name": "Progressive Super Combo",
-        "category": [
-            "Super"
-        ],
-        "count": 3,
-        "progression": true
-    },
-    {
-        "name": "Adon's Bandage",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Adon's Muay Thai Briefs",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Akuma's Juzu",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Akuma's Loincloth",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Birdie's Chain",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Birdie's Leather Thong",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Charlie Nash's Sunglasses",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Charlie Nash's Military Briefs",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Chun Li's Ribbon",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Chun Li's Chinese Panties",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Dan's Pink Gi",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Dan's Pink Thong",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Guy's Sneakers",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Guy's Ninja Briefs",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Ken's Red Ribbon",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Ken's American Briefs",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "M.Bison's General Cap",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "M.Bison's Dictator Thong",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Rose's Yellow Scarf",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Rose's Lace Thong",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Ryu's White Headband",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Ryu's Japanese Loincloth",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Sagat's Muay Thai Shorts",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Sagat's String Thong",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Sodom's Japanese Helmet",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Sodom's Japanese Briefs",
-        "category": [
-            "Filler"
-        ],
-        "count": 0
-    },
-    {
-        "name": "Shadaloo Emblem",
-        "category": [
-            "Token"
-        ],
-        "count": 100,
-        "progression": true
-    }
-]
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Arcade Mode",
+            "category": [
+                "Game_Modes",
+                "Arcade_Mode"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Survival Mode",
+            "category": [
+                "Game_Modes",
+                "Survival_Mode"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Dramatic Battle Mode",
+            "category": [
+                "Game_Modes",
+                "Dramatic_Battle_Mode"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Game Speed - Normal",
+            "category": [
+                "Game_Speed"
+            ],
+            "count": 1
+        },
+        {
+            "name": "Game Speed - Turbo",
+            "category": [
+                "Game_Speed"
+            ],
+            "count": 1
+        },
+        {
+            "name": "Difficulty - 1 Star",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 2 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 3 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 4 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 5 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 6 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 7 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Difficulty - 8 Stars",
+            "category": [
+                "Options",
+                "Difficulty"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Damage Levels - 1 Star",
+            "category": [
+                "Options",
+                "Damage_Levels"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Damage Levels - 2 Stars",
+            "category": [
+                "Options",
+                "Damage_Levels"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Damage Levels - 3 Stars",
+            "category": [
+                "Options",
+                "Damage_Levels"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Damage Levels - 4 Stars",
+            "category": [
+                "Options",
+                "Damage_Levels"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Timer Speed - 1 Star",
+            "category": [
+                "Options",
+                "Timer_Speed"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Timer Speed - 2 Stars",
+            "category": [
+                "Options",
+                "Timer_Speed"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Timer Speed - 3 Stars",
+            "category": [
+                "Options",
+                "Timer_Speed"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Timer Speed - 4 Stars",
+            "category": [
+                "Options",
+                "Timer_Speed"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Timer Speed - Infinity",
+            "category": [
+                "Options",
+                "Timer_Speed"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Speed Select - Free",
+            "category": [
+                "Options",
+                "Speed_Select"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Speed Select - Turbo 0",
+            "category": [
+                "Options",
+                "Speed_Select"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Speed Select - Turbo 1",
+            "category": [
+                "Options",
+                "Speed_Select"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Speed Select - Turbo 2",
+            "category": [
+                "Options",
+                "Speed_Select"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Max Rounds - 1",
+            "category": [
+                "Options",
+                "Max_Rounds"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Max Rounds - 3",
+            "category": [
+                "Options",
+                "Max_Rounds"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Max Rounds - 5",
+            "category": [
+                "Options",
+                "Max_Rounds"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Adon",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Akuma",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Birdie",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Charlie Nash",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Chun Li",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Dan",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Guy",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ken",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "M.Bison",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Rose",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Ryu",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sagat",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Sodom",
+            "category": [
+                "Characters"
+            ],
+            "count": 1,
+            "progression": true
+        },
+        {
+            "name": "Progressive Super Combo",
+            "category": [
+                "Super"
+            ],
+            "count": 3,
+            "progression": true
+        },
+        {
+            "name": "Adon's Bandage",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Adon's Muay Thai Briefs",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Akuma's Juzu",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Akuma's Loincloth",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Birdie's Chain",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Birdie's Leather Thong",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Charlie Nash's Sunglasses",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Charlie Nash's Military Briefs",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Chun Li's Ribbon",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Chun Li's Chinese Panties",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Dan's Pink Gi",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Dan's Pink Thong",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Guy's Sneakers",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Guy's Ninja Briefs",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Ken's Red Ribbon",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Ken's American Briefs",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "M.Bison's General Cap",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "M.Bison's Dictator Thong",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Rose's Yellow Scarf",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Rose's Lace Thong",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Ryu's White Headband",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Ryu's Japanese Loincloth",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Sagat's Muay Thai Shorts",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Sagat's String Thong",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Sodom's Japanese Helmet",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Sodom's Japanese Briefs",
+            "category": [
+                "Filler"
+            ],
+            "count": 0
+        },
+        {
+            "name": "Shadaloo Emblem",
+            "category": [
+                "Token"
+            ],
+            "count": 100,
+            "progression": true
+        }
+    ]
+}

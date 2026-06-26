@@ -67,6 +67,31 @@ J’aimerais ajouter davantage d’objectifs et rendre la configuration du YAML 
 
 ## Notes de patch
 
+### Version 0.5.0 : Alpha 2 Update
+
+#### Street Fighter Alpha 1
+- Ajout d'un check `Finish the Survival Mode` pour chaque personnage de Street Fighter Alpha 1.
+- Renommage des checks Survival Mode de Street Fighter Alpha 1 afin d'inclure l'ordre corrigé des adversaires de Ken jusqu'à Akuma.
+- Conversion des fichiers `items.json` et `locations.json` de Street Fighter Alpha 1 vers le format Manual actuel avec enveloppe `data`, afin de garder la génération des templates compatible avec le launcher Archipelago.
+- Ajout de l'option YAML `shadaloo_emblems_available_percentage` afin de permettre d'avoir plus de Shadaloo Emblems dans le pool d'items que le nombre requis pour l'objectif choisi.
+- Mise à jour du hook Shadaloo Emblem afin que les tokens requis restent en progression et que les tokens supplémentaires soient considérés comme utiles.
+- Mise à jour du tri des locations afin de mieux organiser les checks Survival, les checks de fin de Survival, les rivalités, les checks spéciaux, les options et les objectifs.
+- Réorganisation des données de locations pour suivre le même tri propre que celui utilisé côté client.
+
+#### Street Fighter Alpha 2
+- Début du nettoyage et de l'intégration du manual Street Fighter Alpha 2.
+- Conversion des fichiers `items.json` et `locations.json` de Street Fighter Alpha 2 vers le format Manual actuel avec enveloppe `data`, afin de garder la génération des templates compatible avec le launcher Archipelago.
+- Correction des références restantes à Street Fighter Alpha 1 dans les données Alpha 2, la documentation d'installation, les informations meta et les messages de hooks.
+- Ajout des checks Survival Mode manquants jusqu'au Fight 18 pour chaque personnage d'Alpha 2.
+- Ajout d'un check `Finish the Survival Mode` pour chaque personnage d'Alpha 2.
+- Renommage des checks Survival Mode d'Alpha 2 afin d'inclure l'ordre des adversaires de Ken jusqu'à Akuma.
+- Synchronisation des hooks Alpha 2 avec le style de Street Fighter Alpha 1, incluant les fillers dynamiques, la validation des modes, la gestion des tokens et le tri côté client.
+- Ajout de l'option YAML `shadaloo_emblems_available_percentage` à Alpha 2.
+- Correction du JSON invalide et des fautes dans les `requires` de checks spéciaux concernant Dhalsim, Dhalsim EX et Zangief EX.
+- Harmonisation des noms de checks Alpha 2 avec les vrais noms d'items, notamment `Chun Li`, `Chun Li Classic/SF2` et `M.Bison`.
+- Réorganisation des checks de rivalité après les checks Survival et tri des checks spéciaux par nombre de personnages requis.
+- Ajout des guides Street Fighter Alpha 2 en anglais et en français avec les notes de personnages, les manipulations des variantes cachées, les objectifs, les checks, les tokens et les explications YAML.
+
 ### Version 0.4.2 : Filler Update
 - Ajout d'items filler personnalisés pour Street Fighter Alpha 1 avec la catégorie `Filler` et `count: 0`.
 - Traduction des nouveaux noms d'items filler du français vers l'anglais.
@@ -145,7 +170,7 @@ J’aimerais ajouter davantage d’objectifs et rendre la configuration du YAML 
 * Les Super Combos sont définis comme des items progressifs pendant la randomisation de la liste.
 * La vitesse du jeu est actuellement soit en mode normal, soit activée.
 * Ajout de tous les personnages pour l’Arcade Mode.
-* Ajout de Dan, Akuma et M. Bison pour les modes Survival et Dramatic Battle. Afin d’éviter de bloquer la génération des seeds, ces trois personnages disposent de leur propre catégorie.
+* Ajout de Dan, Akuma et M.Bison pour les modes Survival et Dramatic Battle. Afin d’éviter de bloquer la génération des seeds, ces trois personnages disposent de leur propre catégorie.
 * Objectif fixé à 100 tokens.
 
 ## Comment contribuer

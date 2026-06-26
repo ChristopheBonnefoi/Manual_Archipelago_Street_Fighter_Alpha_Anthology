@@ -64,31 +64,46 @@ Manual_SFA1_NaruSnake:
     minimal: 0
 
   goal:
-    # Choose your victory condition.
+    # How to End your Randomized playthrough.
     shadaloo emblem cleared: 0
     all arcade modes cleared: 50
     all survival modes cleared: 0
     full game cleared: 0
     full game + shadaloo emblem cleared: 0
 
-  arcade_mode:
-    # If enabled, Arcade Mode items and locations are included in the seed.
-    # At least one game mode must stay enabled.
-    true: 50
-    false: 0
+  difficulty:
+    # If enabled, Difficulty items and locations are included in the seed.
+    # If disabled, the Difficulty category is excluded from the multiworld.
+    'false': 50
+    'true': 0
 
-  survival_mode:
-    # If enabled, Survival Mode items and locations are included in the seed.
-    # At least one game mode must stay enabled.
-    true: 50
-    false: 0
+  damage_levels:
+    # If enabled, Damage Levels items and locations are included in the seed.
+    # If disabled, the Damage_Levels category is excluded from the multiworld.
+    'false': 50
+    'true': 0
 
-  dramatic_battle_mode:
-    # If enabled, Dramatic Battle Mode items and locations are included in the seed.
-    # At least one game mode must stay enabled.
-    true: 50
-    false: 0
+  timer_speed:
+    # If enabled, Timer Speed items and locations are included in the seed.
+    # If disabled, the Timer_Speed category is excluded from the multiworld.
+    'false': 50
+    'true': 0
 
+  speed_select:
+    # If enabled, Speed Select items and locations are included in the seed.
+    # If disabled, the Speed_Select category is excluded from the multiworld.
+    'false': 50
+    'true': 0
+
+  max_rounds:
+    # If enabled, Max Rounds items and locations are included in the seed.
+    # If disabled, the Max_Rounds category is excluded from the multiworld.
+    'false': 50
+    'true': 0
+
+  ################
+  # Goal Options #
+  ################
   shadaloo_emblems_required:
     # Choose how many Shadaloo Emblems are required for Shadaloo Emblem goals.
     # This can be set from 1 to 100, or randomized in the YAML for a surprise objective.
@@ -103,35 +118,41 @@ Manual_SFA1_NaruSnake:
     random-high: 0 # random value weighted towards higher values
     random-range-1-100: 0 # random value between 1 and 100
 
-  difficulty:
-    # If enabled, Difficulty items and locations are included in the seed.
-    # If disabled, the Difficulty category is excluded from the multiworld.
-    true: 0
-    false: 50
+  shadaloo_emblems_available_percentage:
+    # Controls how many Shadaloo Emblem items are placed compared to the required amount.
+    # 100 means only the required amount is placed. 200 means double the required amount is placed.
+    # For example, 25 required tokens with 200 percent will place 50 Shadaloo Emblems in the item pool.
+    # The final amount is capped at 100 Shadaloo Emblems.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 100
+    # Maximum value is 400
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-100-400: 0 # random value between 100 and 400
 
-  damage_levels:
-    # If enabled, Damage Levels items and locations are included in the seed.
-    # If disabled, the Damage_Levels category is excluded from the multiworld.
-    true: 0
-    false: 50
+  ##############
+  # Game Modes #
+  ##############
+  arcade_mode:
+    # If enabled, Arcade Mode items and locations are included in the seed.
+    # At least one game mode must stay enabled.
+    'false': 0
+    'true': 50
 
-  timer_speed:
-    # If enabled, Timer Speed items and locations are included in the seed.
-    # If disabled, the Timer_Speed category is excluded from the multiworld.
-    true: 0
-    false: 50
+  survival_mode:
+    # If enabled, Survival Mode items and locations are included in the seed.
+    # At least one game mode must stay enabled.
+    'false': 0
+    'true': 50
 
-  speed_select:
-    # If enabled, Speed Select items and locations are included in the seed.
-    # If disabled, the Speed_Select category is excluded from the multiworld.
-    true: 0
-    false: 50
-
-  max_rounds:
-    # If enabled, Max Rounds items and locations are included in the seed.
-    # If disabled, the Max_Rounds category is excluded from the multiworld.
-    true: 0
-    false: 50
+  dramatic_battle_mode:
+    # If enabled, Dramatic Battle Mode items and locations are included in the seed.
+    # At least one game mode must stay enabled.
+    'false': 0
+    'true': 50
 
   ###########################
   # Item & Location Options #
